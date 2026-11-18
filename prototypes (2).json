@@ -1,0 +1,179 @@
+{
+  "_meta": {
+    "graph_nodes": 316,
+    "graph_edges": 369,
+    "graph_docs": 0,
+    "attributes": [
+      "urgency",
+      "anonymity",
+      "asymmetric_benefit",
+      "authority_impersonation",
+      "isolation_tactic",
+      "information_harvesting",
+      "payment_irregularity",
+      "too_good_to_be_true"
+    ]
+  },
+  "advance_fee_fraud": {
+    "attributes": {
+      "urgency": 0.8,
+      "anonymity": 0.9,
+      "asymmetric_benefit": 1.0,
+      "authority_impersonation": 0.6,
+      "isolation_tactic": 0.5,
+      "information_harvesting": 0.7,
+      "payment_irregularity": 0.9,
+      "too_good_to_be_true": 1.0
+    },
+    "confidence": 0.95,
+    "reasoning": "Advance-fee fraud is defined by the promise of a large, disproportionate reward (asymmetric_benefit/too_good_to_be_true) that requires an upfront payment (payment_irregularity), often from anonymous or impersonated sources (anonymity/authority_impersonation) to create a sense of urgency and secrecy.",
+    "node_count": 30,
+    "node_labels": [
+      "Lottery Scam",
+      "Advance-Fee Fraud",
+      "Advance-Fee Scam",
+      "Federal Bureau of Investigation",
+      "Nigerian Prince Scam",
+      "Spanish Prisoner Scam",
+      "Black Money Scam",
+      "Advanced Fee Scam",
+      "Nigerian Criminal Code",
+      "Nigerian Hip-Hop"
+    ]
+  },
+  "impersonation_scam": {
+    "attributes": {
+      "urgency": 0.9,
+      "anonymity": 0.3,
+      "asymmetric_benefit": 0.1,
+      "authority_impersonation": 1.0,
+      "isolation_tactic": 0.6,
+      "information_harvesting": 0.8,
+      "payment_irregularity": 0.9,
+      "too_good_to_be_true": 0.1
+    },
+    "confidence": 0.95,
+    "reasoning": "The fraud type is defined by masquerading as IRS officers (authority_impersonation) to create fear of legal consequences (urgency) and extract payment or personal data (information_harvesting/payment_irregularity), rather than offering rewards.",
+    "node_count": 30,
+    "node_labels": [
+      "IRS",
+      "Initial Contact",
+      "IRS Impersonation Scam",
+      "Indian Arrests",
+      "Sterk Family",
+      "Tech Support Scam",
+      "Government Impersonation",
+      "IRS Agents",
+      "Social Security Admin",
+      "AIDS Trojan"
+    ]
+  },
+  "phishing": {
+    "attributes": {
+      "urgency": 0.6,
+      "anonymity": 0.8,
+      "asymmetric_benefit": 0.5,
+      "authority_impersonation": 0.9,
+      "isolation_tactic": 0.4,
+      "information_harvesting": 0.95,
+      "payment_irregularity": 0.3,
+      "too_good_to_be_true": 0.5
+    },
+    "confidence": 0.9,
+    "reasoning": "Phishing is fundamentally defined by impersonating trusted entities (authority) to harvest sensitive credentials (information harvesting) through deceptive messages, often using fake identities or spoofed technologies to maintain anonymity.",
+    "node_count": 30,
+    "node_labels": [
+      "Phishing",
+      "Phishing Email",
+      "Spear Phishing",
+      "Phishing Attack",
+      "Vishing",
+      "Email Fraud",
+      "Personal Gain",
+      "Spoofed Caller ID",
+      "Fake Website",
+      "Account Compromise"
+    ]
+  },
+  "investment_fraud": {
+    "attributes": {
+      "urgency": 0.6,
+      "anonymity": 0.4,
+      "asymmetric_benefit": 0.9,
+      "authority_impersonation": 0.2,
+      "isolation_tactic": 0.3,
+      "information_harvesting": 0.5,
+      "payment_irregularity": 0.7,
+      "too_good_to_be_true": 0.9
+    },
+    "confidence": 0.9,
+    "reasoning": "Investment fraud is defined by the promise of high returns (asymmetric benefit/too good to be true) and often involves irregular payment methods or harvesting of financial data to execute the scheme, though it relies less on impersonating government authorities than other fraud types.",
+    "node_count": 30,
+    "node_labels": [
+      "Ponzi Scheme",
+      "New Investors",
+      "Charles Ponzi",
+      "Pyramid Scheme",
+      "Pig Butchering Scam",
+      "Investment Fraud",
+      "Cryptocurrency Scam",
+      "New Recruits",
+      "Scheme Collapse",
+      "Lower Levels"
+    ]
+  },
+  "romance_scam": {
+    "attributes": {
+      "urgency": 0.3,
+      "anonymity": 0.8,
+      "asymmetric_benefit": 0.9,
+      "authority_impersonation": 0.2,
+      "isolation_tactic": 0.6,
+      "information_harvesting": 0.7,
+      "payment_irregularity": 0.8,
+      "too_good_to_be_true": 0.9
+    },
+    "confidence": 0.85,
+    "reasoning": "The graph nodes highlight 'Pig Butchering' and 'Romance Baiting' which rely on long-term trust building (low urgency) but involve high anonymity, asymmetric financial promises, and irregular payment methods like cryptocurrency.",
+    "node_count": 30,
+    "node_labels": [
+      "Lottery Scam",
+      "Fake Check",
+      "Processing Fees",
+      "Legitimate Lottery Orgs",
+      "Free Email Accounts",
+      "Scam Identification",
+      "Scam",
+      "Scammer",
+      "Shill",
+      "Long Con"
+    ]
+  },
+  "identity_theft": {
+    "attributes": {
+      "urgency": 0.2,
+      "anonymity": 0.8,
+      "asymmetric_benefit": 0.3,
+      "authority_impersonation": 0.4,
+      "isolation_tactic": 0.2,
+      "information_harvesting": 0.9,
+      "payment_irregularity": 0.3,
+      "too_good_to_be_true": 0.2
+    },
+    "confidence": 0.9,
+    "reasoning": "Identity theft is fundamentally defined by the unauthorized acquisition and use of Personal Identifying Information (information_harvesting) and the concealment of the fraudster's true identity (anonymity), rather than by direct social engineering tactics like urgency or authority impersonation which are more specific to phishing or advance-fee scams.",
+    "node_count": 30,
+    "node_labels": [
+      "Identity Theft",
+      "Personal Identifying Information",
+      "Fraudster",
+      "Victim",
+      "Credit Card Number",
+      "Identity Piracy",
+      "United States",
+      "Falsified Origin",
+      "Sensitive Information",
+      "Financial Fraud"
+    ]
+  }
+}

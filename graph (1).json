@@ -1,0 +1,6531 @@
+{
+  "nodes": [
+    {
+      "id": "phishing",
+      "label": "Phishing",
+      "type": "fraud_type",
+      "desc": "A form of social engineering used to steal sensitive information.",
+      "ring": 0,
+      "angle": 3.3335760555555556,
+      "sources": [
+        "Phishing",
+        "Email_fraud"
+      ],
+      "doc": "Phishing",
+      "crossDoc": true
+    },
+    {
+      "id": "social_engineering",
+      "label": "Social Engineering",
+      "type": "criminal_actor",
+      "desc": "The psychological manipulation of people into performing actions or divulging confidential information.",
+      "ring": 0,
+      "angle": 2.862337555555555,
+      "sources": [
+        "Phishing",
+        "2023_IC3Report.pdf",
+        "text"
+      ],
+      "doc": "Phishing",
+      "crossDoc": true
+    },
+    {
+      "id": "fraudulent_domain",
+      "label": "Fraudulent Domain",
+      "type": "fraud_type",
+      "desc": "A deceptive web address that mimics a legitimate site to trick users.",
+      "ring": 1,
+      "angle": 4.712384999999999,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    },
+    {
+      "id": "incorrect_branding",
+      "label": "Incorrect Branding",
+      "type": "concept",
+      "desc": "Visual inconsistencies in logos or design that indicate a fake source.",
+      "ring": 0,
+      "angle": 4.974184166666666,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    },
+    {
+      "id": "generic_information",
+      "label": "Generic Information",
+      "type": "concept",
+      "desc": "Vague content lacking specific personal details, often used in mass attacks.",
+      "ring": 0,
+      "angle": 4.031707166666666,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    },
+    {
+      "id": "spelling_errors",
+      "label": "Spelling Errors",
+      "type": "concept",
+      "desc": "Typos in the message body that signal a lack of professional quality.",
+      "ring": 2,
+      "angle": 3.0892301666666664,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    },
+    {
+      "id": "sense_of_urgency",
+      "label": "Sense of Urgency",
+      "type": "concept",
+      "desc": "Psychological pressure tactics used to force quick, unthinking reactions.",
+      "ring": 0,
+      "angle": 1.2391827222222223,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    },
+    {
+      "id": "phishing_email",
+      "label": "Phishing Email",
+      "type": "fraud_type",
+      "desc": "A fraudulent electronic message designed to impersonate a trusted entity.",
+      "ring": 2,
+      "angle": 3.769908,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    },
+    {
+      "id": "identity_theft",
+      "label": "Identity Theft",
+      "type": "fraud_type",
+      "desc": "The deliberate use of someone else's identity to commit fraud or other crimes.",
+      "ring": 0,
+      "angle": 5.602502166666667,
+      "sources": [
+        "Identity_theft",
+        "Identity theft",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": true
+    },
+    {
+      "id": "personal_identifying_information",
+      "label": "Personal Identifying Information",
+      "type": "concept",
+      "desc": "Data such as names, numbers, and card details used to verify identity.",
+      "ring": 0,
+      "angle": 3.9618940555555557,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "fraud",
+      "label": "Fraud",
+      "type": "fraud_type",
+      "desc": "Deceptive practices committed to gain unauthorized financial or personal benefit.",
+      "ring": 2,
+      "angle": 0.0,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "fraudster",
+      "label": "Fraudster",
+      "type": "fraud_type",
+      "desc": "An individual who commits identity theft and related crimes.",
+      "ring": 2,
+      "angle": 3.5953752222222226,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "victim",
+      "label": "Victim",
+      "type": "victim_target",
+      "desc": "The person whose identity is stolen and used without permission.",
+      "ring": 2,
+      "angle": 4.799651388888889,
+      "sources": [
+        "Identity_theft",
+        "Confidence_trick",
+        "Romance scam"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": true
+    },
+    {
+      "id": "tax_return",
+      "label": "Tax Return",
+      "type": "concept",
+      "desc": "Official document filed with tax authorities to report income and claim refunds.",
+      "ring": 2,
+      "angle": 5.427969388888889,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "irs",
+      "label": "IRS",
+      "type": "concept",
+      "desc": "The United States Internal Revenue Service responsible for tax collection.",
+      "ring": 0,
+      "angle": 0.8901171666666667,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "credit_card_number",
+      "label": "Credit Card Number",
+      "type": "concept",
+      "desc": "A unique number used for financial transactions and identity verification.",
+      "ring": 0,
+      "angle": 2.2165662777777775,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "identity_piracy",
+      "label": "Identity Piracy",
+      "type": "concept",
+      "desc": "An alternative term for the unauthorized use of personal identity.",
+      "ring": 0,
+      "angle": 1.7278745,
+      "sources": [
+        "Identity_theft"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": false
+    },
+    {
+      "id": "united_states",
+      "label": "United States",
+      "type": "concept",
+      "desc": "The country where the primary examples of identity theft are focused.",
+      "ring": 0,
+      "angle": 4.433132555555555,
+      "sources": [
+        "Identity_theft",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Identity_theft",
+      "crossDoc": true
+    },
+    {
+      "id": "lottery_scam",
+      "label": "Lottery Scam",
+      "type": "fraud_type",
+      "desc": "A type of advance-fee fraud where victims are told they won a lottery.",
+      "ring": 0,
+      "angle": 0.8203040555555555,
+      "sources": [
+        "Lottery_scam",
+        "Lottery scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "advance-fee_fraud",
+      "label": "Advance-Fee Fraud",
+      "type": "fraud_type",
+      "desc": "A broader category of fraud requiring upfront payment for promised rewards.",
+      "ring": 0,
+      "angle": 3.106683444444444,
+      "sources": [
+        "Lottery_scam",
+        "Lottery scam",
+        "text"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "fake_check",
+      "label": "Fake Check",
+      "type": "attack_vector",
+      "desc": "A fraudulent instrument often included in scam messages to lure victims.",
+      "ring": 1,
+      "angle": 0.4886917777777777,
+      "sources": [
+        "Lottery_scam",
+        "Lottery scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "claims_agent",
+      "label": "Claims Agent",
+      "type": "concept",
+      "desc": "A fictional or fraudulent contact person used to solicit fees from victims.",
+      "ring": 2,
+      "angle": 5.672315277777778,
+      "sources": [
+        "Lottery_scam",
+        "Lottery scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "processing_fees",
+      "label": "Processing Fees",
+      "type": "red_flag",
+      "desc": "Fabricated charges demanded by scammers to release non-existent winnings.",
+      "ring": 0,
+      "angle": 0.26179916666666664,
+      "sources": [
+        "Lottery_scam",
+        "Lottery scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "legitimate_lottery_orgs",
+      "label": "Legitimate Lottery Orgs",
+      "type": "red_flag",
+      "desc": "Real organizations whose names are often misused by scammers.",
+      "ring": 0,
+      "angle": 3.9618940555555557,
+      "sources": [
+        "Lottery_scam",
+        "Lottery scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "free_email_accounts",
+      "label": "Free Email Accounts",
+      "type": "attack_vector",
+      "desc": "Common platforms like Gmail or Yahoo used to send scam emails.",
+      "ring": 1,
+      "angle": 6.003927555555555,
+      "sources": [
+        "Lottery_scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "confidentiality_instruction",
+      "label": "Confidentiality Instruction",
+      "type": "concept",
+      "desc": "A tactic urging victims to keep the win secret to prevent detection.",
+      "ring": 0,
+      "angle": 4.764744833333333,
+      "sources": [
+        "Lottery_scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "scam_identification",
+      "label": "Scam Identification",
+      "type": "fraud_type",
+      "desc": "The process of recognizing fake lottery emails through specific red flags.",
+      "ring": 1,
+      "angle": 3.6826416111111113,
+      "sources": [
+        "Lottery_scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "no_ticket_rule",
+      "label": "No Ticket Rule",
+      "type": "concept",
+      "desc": "The principle that one cannot win a lottery without purchasing a ticket.",
+      "ring": 0,
+      "angle": 5.689768555555555,
+      "sources": [
+        "Lottery_scam"
+      ],
+      "doc": "Lottery_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "pyramid_scheme",
+      "label": "Pyramid Scheme",
+      "type": "fraud_type",
+      "desc": "A fraudulent business model that relies on recruiting new members to generate revenue.",
+      "ring": 0,
+      "angle": 3.176496555555555,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "exponential_growth",
+      "label": "Exponential Growth",
+      "type": "concept",
+      "desc": "A mathematical pattern where quantities increase at an accelerating rate over time.",
+      "ring": 0,
+      "angle": 1.6580613888888889,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "geometric_sequence",
+      "label": "Geometric Sequence",
+      "type": "concept",
+      "desc": "A mathematical series where each term is a constant multiple of the previous one.",
+      "ring": 0,
+      "angle": 5.323249722222222,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "new_recruits",
+      "label": "New Recruits",
+      "type": "concept",
+      "desc": "Individuals who join the scheme to pay fees or purchase products.",
+      "ring": 2,
+      "angle": 3.8920809444444444,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "scheme_collapse",
+      "label": "Scheme Collapse",
+      "type": "concept",
+      "desc": "The inevitable failure of the scheme when recruitment stops.",
+      "ring": 2,
+      "angle": 3.6302817777777774,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "lower_levels",
+      "label": "Lower Levels",
+      "type": "concept",
+      "desc": "The bottom layers of the pyramid containing the majority of participants.",
+      "ring": 0,
+      "angle": 0.942477,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "top_members",
+      "label": "Top Members",
+      "type": "concept",
+      "desc": "The few individuals at the top who profit from the scheme.",
+      "ring": 2,
+      "angle": 0.43633194444444445,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_loss",
+      "label": "Financial Loss",
+      "type": "concept",
+      "desc": "The monetary damage suffered by participants who cannot recover their investment.",
+      "ring": 2,
+      "angle": 5.253436611111111,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "member_recruitment",
+      "label": "Member Recruitment",
+      "type": "concept",
+      "desc": "The process of soliciting new participants to sustain the scheme.",
+      "ring": 1,
+      "angle": 0.9599302777777778,
+      "sources": [
+        "Pyramid_scheme"
+      ],
+      "doc": "Pyramid_scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "email_fraud",
+      "label": "Email Fraud",
+      "type": "fraud_type",
+      "desc": "Intentional deception using email for personal gain or to damage others.",
+      "ring": 0,
+      "angle": 5.916661166666667,
+      "sources": [
+        "Email_fraud"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": false
+    },
+    {
+      "id": "email_spoofing",
+      "label": "Email Spoofing",
+      "type": "attack_vector",
+      "desc": "Technique of falsifying origin information to mislead recipients.",
+      "ring": 1,
+      "angle": 6.230820166666667,
+      "sources": [
+        "Email_fraud",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": true
+    },
+    {
+      "id": "spear_phishing",
+      "label": "Spear Phishing",
+      "type": "fraud_type",
+      "desc": "Targeted and personalized emails designed to deceive specific individuals.",
+      "ring": 1,
+      "angle": 5.480329222222222,
+      "sources": [
+        "Email_fraud",
+        "text"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": true
+    },
+    {
+      "id": "confidence_trick",
+      "label": "Confidence Trick",
+      "type": "concept",
+      "desc": "Deceptive schemes that exploit victim greed or trust.",
+      "ring": 0,
+      "angle": 4.764744833333333,
+      "sources": [
+        "Email_fraud",
+        "Confidence_trick"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": true
+    },
+    {
+      "id": "personal_gain",
+      "label": "Personal Gain",
+      "type": "concept",
+      "desc": "The primary motivation for committing email fraud.",
+      "ring": 0,
+      "angle": 5.305796444444445,
+      "sources": [
+        "Email_fraud"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": false
+    },
+    {
+      "id": "naive_individuals",
+      "label": "Naive Individuals",
+      "type": "concept",
+      "desc": "Vulnerable targets who trust schemes to get rich quickly.",
+      "ring": 2,
+      "angle": 1.0471966666666666,
+      "sources": [
+        "Email_fraud"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": false
+    },
+    {
+      "id": "falsified_origin",
+      "label": "Falsified Origin",
+      "type": "concept",
+      "desc": "Manipulated header data used to disguise the sender's identity.",
+      "ring": 1,
+      "angle": 0.7504909444444444,
+      "sources": [
+        "Email_fraud"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": false
+    },
+    {
+      "id": "sensitive_information",
+      "label": "Sensitive Information",
+      "type": "concept",
+      "desc": "Data targeted by fraudsters for theft or misuse.",
+      "ring": 0,
+      "angle": 1.4137155,
+      "sources": [
+        "Email_fraud"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": false
+    },
+    {
+      "id": "malicious_actions",
+      "label": "Malicious Actions",
+      "type": "concept",
+      "desc": "Unwanted behaviors induced in victims by deceptive messages.",
+      "ring": 2,
+      "angle": 3.874627666666666,
+      "sources": [
+        "Email_fraud"
+      ],
+      "doc": "Email_fraud",
+      "crossDoc": false
+    },
+    {
+      "id": "scam",
+      "label": "Scam",
+      "type": "fraud_type",
+      "desc": "An attempt to defraud a person or group after gaining their trust.",
+      "ring": 0,
+      "angle": 4.729838277777778,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "scammer",
+      "label": "Scammer",
+      "type": "fraud_type",
+      "desc": "The perpetrator who executes the fraudulent scheme to exploit victims.",
+      "ring": 2,
+      "angle": 3.3161227777777778,
+      "sources": [
+        "Confidence_trick",
+        "Romance scam"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": true
+    },
+    {
+      "id": "shill",
+      "label": "Shill",
+      "type": "concept",
+      "desc": "An accomplice employed by the scammer to support the deception.",
+      "ring": 2,
+      "angle": 2.809977722222222,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "credulity",
+      "label": "Credulity",
+      "type": "concept",
+      "desc": "The victim's willingness to believe, which is exploited by the con artist.",
+      "ring": 0,
+      "angle": 0.4886917777777777,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "greed",
+      "label": "Greed",
+      "type": "concept",
+      "desc": "A psychological trait of the victim that makes them susceptible to fraudulent offers.",
+      "ring": 0,
+      "angle": 3.3161227777777778,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "short_con",
+      "label": "Short Con",
+      "type": "concept",
+      "desc": "A fast swindle lasting minutes that targets immediate valuables.",
+      "ring": 1,
+      "angle": 2.809977722222222,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "long_con",
+      "label": "Long Con",
+      "type": "concept",
+      "desc": "A complex scam unfolding over days or weeks involving elaborate setups.",
+      "ring": 1,
+      "angle": 6.143553777777778,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "fraudulent_conduct",
+      "label": "Fraudulent Conduct",
+      "type": "fraud_type",
+      "desc": "The legal and ethical classification of scamming activities.",
+      "ring": 0,
+      "angle": 3.2986695,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "voluntary_exchange",
+      "label": "Voluntary Exchange",
+      "type": "concept",
+      "desc": "The transaction type that is manipulated to be non-mutually beneficial.",
+      "ring": 0,
+      "angle": 4.852011222222222,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "pig_butchering_scam",
+      "label": "Pig Butchering Scam",
+      "type": "fraud_type",
+      "desc": "A form of online relationship and investment fraud involving fake romantic relationships.",
+      "ring": 0,
+      "angle": 2.7750711666666668,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "romance_baiting",
+      "label": "Romance Baiting",
+      "type": "concept",
+      "desc": "The tactic of using romantic interest to lure victims into financial schemes.",
+      "ring": 0,
+      "angle": 0.05235983333333333,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "cryptocurrency_fraud",
+      "label": "Cryptocurrency Fraud",
+      "type": "fraud_type",
+      "desc": "Investment scams involving fraudulent cryptocurrency trading platforms.",
+      "ring": 2,
+      "angle": 3.5255621111111113,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "catfishing",
+      "label": "Catfishing",
+      "type": "concept",
+      "desc": "Creating fake online identities to deceive and manipulate victims.",
+      "ring": 1,
+      "angle": 3.7524547222222218,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "social_media",
+      "label": "Social Media",
+      "type": "attack_vector",
+      "desc": "Digital platforms where initial contact and trust building often occur.",
+      "ring": 1,
+      "angle": 5.235983333333333,
+      "sources": [
+        "Pig_butchering_scam",
+        "text"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": true
+    },
+    {
+      "id": "dating_apps",
+      "label": "Dating Apps",
+      "type": "concept",
+      "desc": "Applications used by perpetrators to find and engage potential victims.",
+      "ring": 2,
+      "angle": 1.2915425555555555,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "fake_trading_platforms",
+      "label": "Fake Trading Platforms",
+      "type": "attack_vector",
+      "desc": "Fraudulent websites designed to resemble legitimate investment sites.",
+      "ring": 1,
+      "angle": 1.3788089444444445,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_profiling",
+      "label": "Financial Profiling",
+      "type": "concept",
+      "desc": "Gathering personal and financial data to target specific victims.",
+      "ring": 1,
+      "angle": 5.270889888888889,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "trust_cultivation",
+      "label": "Trust Cultivation",
+      "type": "concept",
+      "desc": "The process of building a false sense of security with the victim.",
+      "ring": 1,
+      "angle": 0.9948368333333333,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "unsolicited_contact",
+      "label": "Unsolicited Contact",
+      "type": "concept",
+      "desc": "Initial outreach via calls or messages to start the scam.",
+      "ring": 1,
+      "angle": 6.2657267222222215,
+      "sources": [
+        "Pig_butchering_scam"
+      ],
+      "doc": "Pig_butchering_scam",
+      "crossDoc": false
+    },
+    {
+      "id": "personally_identifiable_information",
+      "label": "Personally Identifiable Information",
+      "type": "concept",
+      "desc": "Data such as names, SSNs, and credit card numbers that can identify an individual.",
+      "ring": 0,
+      "angle": 5.899207888888889,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "data_breach",
+      "label": "Data Breach",
+      "type": "concept",
+      "desc": "An incident where sensitive data is accessed or stolen by unauthorized parties.",
+      "ring": 2,
+      "angle": 2.286379388888889,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_fraud",
+      "label": "Financial Fraud",
+      "type": "fraud_type",
+      "desc": "Criminal activities involving the misuse of identity for financial gain.",
+      "ring": 2,
+      "angle": 5.916661166666667,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "ftc_report",
+      "label": "FTC Report",
+      "type": "defense",
+      "desc": "A report by the Federal Trade Commission analyzing identity theft detection issues.",
+      "ring": 0,
+      "angle": 3.2986695,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "us_gao_study",
+      "label": "US GAO Study",
+      "type": "concept",
+      "desc": "A Government Accountability Office study linking data breaches to identity theft incidents.",
+      "ring": 0,
+      "angle": 0.5410516111111111,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_impact",
+      "label": "Victim Impact",
+      "type": "victim_target",
+      "desc": "Adverse consequences suffered by individuals whose identities are stolen.",
+      "ring": 2,
+      "angle": 4.799651388888889,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "payment_card_breach",
+      "label": "Payment Card Breach",
+      "type": "concept",
+      "desc": "A specific data breach involving the theft of four million payment card records.",
+      "ring": 2,
+      "angle": 1.3962622222222223,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "cyber_crime",
+      "label": "Cyber Crime",
+      "type": "concept",
+      "desc": "Criminal activities conducted via the internet, including identity theft.",
+      "ring": 0,
+      "angle": 2.1642064444444444,
+      "sources": [
+        "Identity theft",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": true
+    },
+    {
+      "id": "legal_definition",
+      "label": "Legal Definition",
+      "type": "concept",
+      "desc": "The formal legal status of identity theft in the UK and US.",
+      "ring": 0,
+      "angle": 0.1570795,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "advance-fee_scam",
+      "label": "Advance-Fee Scam",
+      "type": "fraud_type",
+      "desc": "A form of fraud where victims pay upfront fees in anticipation of receiving a larger sum.",
+      "ring": 0,
+      "angle": 0.7155843888888888,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "federal_bureau_of_investigation",
+      "label": "Federal Bureau of Investigation",
+      "type": "concept",
+      "desc": "The U.S. federal law enforcement agency that defines advance-fee schemes.",
+      "ring": 0,
+      "angle": 2.3212859444444445,
+      "sources": [
+        "Advance-fee scam",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": true
+    },
+    {
+      "id": "nigerian_prince_scam",
+      "label": "Nigerian Prince Scam",
+      "type": "fraud_type",
+      "desc": "A common variation of advance-fee fraud also known as the 419 scam.",
+      "ring": 2,
+      "angle": 4.136426833333333,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "nigerian_criminal_code",
+      "label": "Nigerian Criminal Code",
+      "type": "criminal_actor",
+      "desc": "Legal code where section 419 deals with fraud, giving the scam its name.",
+      "ring": 0,
+      "angle": 4.921824333333333,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "spanish_prisoner_scam",
+      "label": "Spanish Prisoner Scam",
+      "type": "fraud_type",
+      "desc": "A historical variant of advance-fee fraud dating back to the late 18th century.",
+      "ring": 2,
+      "angle": 4.520398944444444,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "black_money_scam",
+      "label": "Black Money Scam",
+      "type": "fraud_type",
+      "desc": "Another variation of advance-fee fraud involving illicit funds.",
+      "ring": 2,
+      "angle": 5.2883431666666665,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "online_communications",
+      "label": "Online Communications",
+      "type": "concept",
+      "desc": "Digital channels like email where these scams are now prevalent.",
+      "ring": 1,
+      "angle": 5.410516111111111,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "letter_from_jerusalem",
+      "label": "Letter from Jerusalem",
+      "type": "concept",
+      "desc": "A historical document illustrating an early variant of the scam.",
+      "ring": 0,
+      "angle": 2.9845104999999994,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "eug\u00e8ne_fran\u00e7ois_vidocq",
+      "label": "Eug\u00e8ne Fran\u00e7ois Vidocq",
+      "type": "concept",
+      "desc": "A former French criminal and private investigator who documented scam variants.",
+      "ring": 2,
+      "angle": 2.5481785555555554,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "fraudulent_payment",
+      "label": "Fraudulent Payment",
+      "type": "fraud_type",
+      "desc": "The initial small payment made by victims to fraudsters.",
+      "ring": 2,
+      "angle": 3.7350014444444444,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "nigeria",
+      "label": "Nigeria",
+      "type": "concept",
+      "desc": "A country with a reputation for corruption and email scamming.",
+      "ring": 0,
+      "angle": 3.106683444444444,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "money_flipping",
+      "label": "Money Flipping",
+      "type": "concept",
+      "desc": "A variation of fraud promising large returns for small initial investments.",
+      "ring": 1,
+      "angle": 0.40142538888888885,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "nigerian_hip-hop",
+      "label": "Nigerian Hip-Hop",
+      "type": "concept",
+      "desc": "A music culture that glamorizes cyber-fraud according to a 2018 study.",
+      "ring": 0,
+      "angle": 2.530725277777778,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "cybercafes",
+      "label": "Cybercafes",
+      "type": "concept",
+      "desc": "Public internet access points that facilitated the rise of online fraud in Nigeria.",
+      "ring": 1,
+      "angle": 0.3316122777777778,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "economic_crises",
+      "label": "Economic Crises",
+      "type": "concept",
+      "desc": "Historical economic downturns in the 1980s that contributed to joblessness and fraud.",
+      "ring": 2,
+      "angle": 5.846848055555555,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "social_media_influence",
+      "label": "Social Media Influence",
+      "type": "attack_vector",
+      "desc": "The promotion of scamming as a trendy way to gain luxury items by celebrities.",
+      "ring": 0,
+      "angle": 5.654862,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "fake_identity",
+      "label": "Fake Identity",
+      "type": "attack_vector",
+      "desc": "Use of fake email addresses or social media accounts to initiate contact.",
+      "ring": 1,
+      "angle": 3.438295722222222,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "unclaimed_assets",
+      "label": "Unclaimed Assets",
+      "type": "concept",
+      "desc": "Alleged large amounts of money or gold that the victim is asked to help access.",
+      "ring": 0,
+      "angle": 3.0368703333333333,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "initial_contact",
+      "label": "Initial Contact",
+      "type": "concept",
+      "desc": "The first step of the scam where the perpetrator reaches out to the victim.",
+      "ring": 2,
+      "angle": 0.5934114444444444,
+      "sources": [
+        "Advance-fee scam"
+      ],
+      "doc": "Advance-fee scam",
+      "crossDoc": false
+    },
+    {
+      "id": "romance_scam",
+      "label": "Romance Scam",
+      "type": "fraud_type",
+      "desc": "A fraudulent scheme where criminals build fake romantic relationships to extract money.",
+      "ring": 0,
+      "angle": 4.904371055555556,
+      "sources": [
+        "Romance scam",
+        "2023_IC3Report.pdf",
+        "text"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": true
+    },
+    {
+      "id": "emotional_manipulation",
+      "label": "Emotional Manipulation",
+      "type": "concept",
+      "desc": "Tactics used to create a false sense of intimacy and trust over time.",
+      "ring": 1,
+      "angle": 5.602502166666667,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_request",
+      "label": "Financial Request",
+      "type": "concept",
+      "desc": "The demand for money for travel, medical, or other fabricated expenses.",
+      "ring": 2,
+      "angle": 5.672315277777778,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "criminal_network",
+      "label": "Criminal Network",
+      "type": "criminal_actor",
+      "desc": "Organized groups that coordinate the execution of romance scams globally.",
+      "ring": 0,
+      "angle": 1.9896736666666666,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "dating_websites",
+      "label": "Dating Websites",
+      "type": "attack_vector",
+      "desc": "Online platforms used to identify and recruit potential victims.",
+      "ring": 1,
+      "angle": 1.2391827222222223,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "private_communication",
+      "label": "Private Communication",
+      "type": "concept",
+      "desc": "Direct channels like email or phone used to isolate the victim from others.",
+      "ring": 1,
+      "angle": 0.4712385,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_stigma",
+      "label": "Victim Stigma",
+      "type": "victim_target",
+      "desc": "The social shame that prevents victims from reporting the fraud.",
+      "ring": 2,
+      "angle": 5.794488222222221,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "bank_intervention",
+      "label": "Bank Intervention",
+      "type": "victim_target",
+      "desc": "Financial institutions locking funds to prevent further abuse or loss.",
+      "ring": 2,
+      "angle": 4.747291555555555,
+      "sources": [
+        "Romance scam"
+      ],
+      "doc": "Romance scam",
+      "crossDoc": false
+    },
+    {
+      "id": "ponzi_scheme",
+      "label": "Ponzi Scheme",
+      "type": "fraud_type",
+      "desc": "A fraudulent investment operation that pays returns to earlier investors from funds collected from new investors.",
+      "ring": 0,
+      "angle": 2.6354449444444445,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "high_return_deception",
+      "label": "High Return Deception",
+      "type": "concept",
+      "desc": "The false promise of high investment returns used to maintain the scheme's credibility.",
+      "ring": 2,
+      "angle": 2.3212859444444445,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "withdrawal_restriction",
+      "label": "Withdrawal Restriction",
+      "type": "concept",
+      "desc": "Strategies used by operators to limit investor access to their funds.",
+      "ring": 1,
+      "angle": 0.1570795,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "solvent_illusion",
+      "label": "Solvent Illusion",
+      "type": "concept",
+      "desc": "The appearance of financial stability created by processing limited withdrawals promptly.",
+      "ring": 0,
+      "angle": 5.899207888888889,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "legitimate_vehicle",
+      "label": "Legitimate Vehicle",
+      "type": "concept",
+      "desc": "Lawful investment structures like hedge funds that can degenerate into fraud.",
+      "ring": 0,
+      "angle": 0.2094393333333333,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "fraudulent_audit",
+      "label": "Fraudulent Audit",
+      "type": "fraud_type",
+      "desc": "Fabricated financial reports used to hide investment failures and sustain the scheme.",
+      "ring": 1,
+      "angle": 3.019417055555555,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "new_investors",
+      "label": "New Investors",
+      "type": "concept",
+      "desc": "Individuals who provide the cash flow necessary to sustain the Ponzi scheme.",
+      "ring": 2,
+      "angle": 4.590212055555555,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "scheme_operator",
+      "label": "Scheme Operator",
+      "type": "criminal_actor",
+      "desc": "The individual or entity managing the fraudulent investment operation.",
+      "ring": 2,
+      "angle": 1.1344630555555555,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "cash_flow",
+      "label": "Cash Flow",
+      "type": "concept",
+      "desc": "The movement of money from new investors used to pay existing ones.",
+      "ring": 0,
+      "angle": 5.72467511111111,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "investment_failure",
+      "label": "Investment Failure",
+      "type": "concept",
+      "desc": "The inability to generate legitimate returns that triggers the shift to fraud.",
+      "ring": 2,
+      "angle": 4.084067,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "money_mules",
+      "label": "Money Mules",
+      "type": "concept",
+      "desc": "Individuals who use their bank accounts to receive and transfer stolen funds.",
+      "ring": 0,
+      "angle": 5.969020999999999,
+      "sources": [
+        "Money mule",
+        "text"
+      ],
+      "doc": "Money mule",
+      "crossDoc": true
+    },
+    {
+      "id": "bank_accounts",
+      "label": "Bank Accounts",
+      "type": "victim_target",
+      "desc": "Financial accounts used to hold and move illicit funds.",
+      "ring": 1,
+      "angle": 4.468039111111111,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "fraudulent_identification",
+      "label": "Fraudulent Identification",
+      "type": "fraud_type",
+      "desc": "Fake or stolen identity documents used to open financial accounts.",
+      "ring": 0,
+      "angle": 3.2986695,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "stolen_funds",
+      "label": "Stolen Funds",
+      "type": "concept",
+      "desc": "Money illegally obtained from compromised accounts or government programs.",
+      "ring": 0,
+      "angle": 2.9321506666666663,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "paycheck_protection_program",
+      "label": "Paycheck Protection Program",
+      "type": "concept",
+      "desc": "A U.S. government program targeted by cybercriminals for large-scale fraud.",
+      "ring": 2,
+      "angle": 5.986474277777778,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "cybercrime_syndicates",
+      "label": "Cybercrime Syndicates",
+      "type": "criminal_actor",
+      "desc": "International criminal groups that organize and execute complex financial frauds.",
+      "ring": 0,
+      "angle": 2.7227113333333333,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "automated_scripts",
+      "label": "Automated Scripts",
+      "type": "concept",
+      "desc": "Software tools used to submit large volumes of fraudulent claims.",
+      "ring": 1,
+      "angle": 4.607665333333333,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "cryptocurrency",
+      "label": "Cryptocurrency",
+      "type": "red_flag",
+      "desc": "Digital assets used to convert and transfer illicit proceeds.",
+      "ring": 1,
+      "angle": 4.188786666666666,
+      "sources": [
+        "Money mule",
+        "Pig butchering scam",
+        "Pasted Text",
+        "text",
+        "Ransomware"
+      ],
+      "doc": "Money mule",
+      "crossDoc": true
+    },
+    {
+      "id": "money_laundering",
+      "label": "Money Laundering",
+      "type": "fraud_type",
+      "desc": "The process of making illegally obtained funds appear legitimate.",
+      "ring": 2,
+      "angle": 0.3490655555555556,
+      "sources": [
+        "Money mule",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Money mule",
+      "crossDoc": true
+    },
+    {
+      "id": "leukfeldt_and_jansen",
+      "label": "Leukfeldt and Jansen",
+      "type": "concept",
+      "desc": "Researchers who studied criminal cyber networks and money mules.",
+      "ring": 2,
+      "angle": 2.3561924999999997,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "huione_pay",
+      "label": "Huione Pay",
+      "type": "concept",
+      "desc": "A payment entity within the group associated with online scams.",
+      "ring": 0,
+      "angle": 3.822267833333333,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "huione_guarantee",
+      "label": "Huione Guarantee",
+      "type": "red_flag",
+      "desc": "A Telegram-based marketplace widely used by online scammers.",
+      "ring": 0,
+      "angle": 4.066613722222222,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "telegram",
+      "label": "Telegram",
+      "type": "concept",
+      "desc": "A messaging platform that blocked Huione Guarantee in 2025.",
+      "ring": 1,
+      "angle": 6.161007055555555,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "zhi",
+      "label": "Zhi",
+      "type": "concept",
+      "desc": "An individual arrested in Cambodia and extradited to China in January 2026.",
+      "ring": 2,
+      "angle": 2.9845104999999994,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "ly_kuong",
+      "label": "Ly Kuong",
+      "type": "concept",
+      "desc": "A casino and real-estate tycoon charged with scam-related crimes.",
+      "ring": 2,
+      "angle": 3.14159,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "cambodian_authorities",
+      "label": "Cambodian Authorities",
+      "type": "concept",
+      "desc": "Law enforcement agencies that arrested Zhi and Ly Kuong.",
+      "ring": 0,
+      "angle": 0.7853975,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "scam_compounds",
+      "label": "Scam Compounds",
+      "type": "fraud_type",
+      "desc": "Facilities in Cambodia where workers were held to conduct scams.",
+      "ring": 2,
+      "angle": 0.6806778333333333,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "romance_fraud",
+      "label": "Romance Fraud",
+      "type": "fraud_type",
+      "desc": "A scam type involving the gradual building of a fake intimate relationship.",
+      "ring": 2,
+      "angle": 1.7976876111111113,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "investment_fraud",
+      "label": "Investment Fraud",
+      "type": "fraud_type",
+      "desc": "Deceptive schemes luring victims into fake investment opportunities.",
+      "ring": 2,
+      "angle": 2.0420335,
+      "sources": [
+        "Pig butchering scam",
+        "Ponzi scheme",
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": true
+    },
+    {
+      "id": "psychological_impact",
+      "label": "Psychological Impact",
+      "type": "concept",
+      "desc": "Severe emotional distress and feelings of betrayal experienced by victims.",
+      "ring": 0,
+      "angle": 0.7330376666666666,
+      "sources": [
+        "Pig butchering scam"
+      ],
+      "doc": "Pig butchering scam",
+      "crossDoc": false
+    },
+    {
+      "id": "identity_fraud",
+      "label": "Identity Fraud",
+      "type": "fraud_type",
+      "desc": "The act of using stolen identity to gain financial advantages or commit crimes.",
+      "ring": 0,
+      "angle": 4.502945666666666,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "federal_trade_commission",
+      "label": "Federal Trade Commission",
+      "type": "concept",
+      "desc": "A U.S. government agency that reports on consumer protection and identity theft issues.",
+      "ring": 0,
+      "angle": 5.654862,
+      "sources": [
+        "Identity theft",
+        "text"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": true
+    },
+    {
+      "id": "u.s._government_accountability_office",
+      "label": "U.S. Government Accountability Office",
+      "type": "victim_target",
+      "desc": "A U.S. federal agency that conducts studies on government operations and data breaches.",
+      "ring": 0,
+      "angle": 6.19591361111111,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "identity_theft_victim",
+      "label": "Identity Theft Victim",
+      "type": "fraud_type",
+      "desc": "An individual whose identity has been stolen and who may suffer adverse consequences.",
+      "ring": 2,
+      "angle": 2.251472833333333,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "payment_card_data_breach",
+      "label": "Payment Card Data Breach",
+      "type": "concept",
+      "desc": "A specific type of data breach involving the theft of payment card information.",
+      "ring": 2,
+      "angle": 6.213366888888888,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "hacker",
+      "label": "Hacker",
+      "type": "concept",
+      "desc": "An individual who uses technical skills to access computer systems, often for malicious purposes.",
+      "ring": 2,
+      "angle": 5.951567722222221,
+      "sources": [
+        "Identity theft"
+      ],
+      "doc": "Identity theft",
+      "crossDoc": false
+    },
+    {
+      "id": "scam_target",
+      "label": "Scam Target",
+      "type": "fraud_type",
+      "desc": "The individual who receives the fraudulent lottery notification.",
+      "ring": 2,
+      "angle": 0.6806778333333333,
+      "sources": [
+        "Lottery scam"
+      ],
+      "doc": "Lottery scam",
+      "crossDoc": false
+    },
+    {
+      "id": "secretive_instruction",
+      "label": "Secretive Instruction",
+      "type": "red_flag",
+      "desc": "A tactic urging victims to keep the win secret to isolate them.",
+      "ring": 0,
+      "angle": 3.0892301666666664,
+      "sources": [
+        "Lottery scam"
+      ],
+      "doc": "Lottery scam",
+      "crossDoc": false
+    },
+    {
+      "id": "charles_ponzi",
+      "label": "Charles Ponzi",
+      "type": "fraud_type",
+      "desc": "The Italian con artist after whom the Ponzi scheme is named.",
+      "ring": 2,
+      "angle": 6.03883411111111,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "earlier_investors",
+      "label": "Earlier Investors",
+      "type": "concept",
+      "desc": "Participants who receive apparent profits funded by new contributions.",
+      "ring": 2,
+      "angle": 3.8571743888888887,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "fabricated_profits",
+      "label": "Fabricated Profits",
+      "type": "concept",
+      "desc": "False returns generated by misappropriating new funds rather than business earnings.",
+      "ring": 0,
+      "angle": 4.433132555555555,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "legitimate_business",
+      "label": "Legitimate Business",
+      "type": "concept",
+      "desc": "The purported real-world activity used to justify investment returns.",
+      "ring": 0,
+      "angle": 3.0019637777777777,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "sustainable_illusion",
+      "label": "Sustainable Illusion",
+      "type": "concept",
+      "desc": "The false appearance of a viable and profitable business model.",
+      "ring": 0,
+      "angle": 5.235983333333333,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "capital_inflow",
+      "label": "Capital Inflow",
+      "type": "concept",
+      "desc": "The continuous stream of new funds required to maintain the scheme.",
+      "ring": 0,
+      "angle": 4.380772722222222,
+      "sources": [
+        "Ponzi scheme"
+      ],
+      "doc": "Ponzi scheme",
+      "crossDoc": false
+    },
+    {
+      "id": "irs_impersonation_scam",
+      "label": "IRS Impersonation Scam",
+      "type": "fraud_type",
+      "desc": "A telecommunications fraud targeting taxpayers by masquerading as IRS officers.",
+      "ring": 2,
+      "angle": 6.143553777777778,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "internal_revenue_service",
+      "label": "Internal Revenue Service",
+      "type": "concept",
+      "desc": "The US federal agency that is impersonated by scammers.",
+      "ring": 0,
+      "angle": 3.717548166666667,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "american_taxpayers",
+      "label": "American Taxpayers",
+      "type": "concept",
+      "desc": "The primary demographic targeted by the fraud scheme.",
+      "ring": 2,
+      "angle": 3.5953752222222226,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "threatening_calls",
+      "label": "Threatening Calls",
+      "type": "concept",
+      "desc": "Official-sounding phone calls used to intimidate victims into paying.",
+      "ring": 1,
+      "angle": 5.672315277777778,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "gift_card_payment",
+      "label": "Gift Card Payment",
+      "type": "red_flag",
+      "desc": "A common payment method requested by scammers, such as iTunes cards.",
+      "ring": 1,
+      "angle": 3.281216222222222,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "treasury_inspector_general",
+      "label": "Treasury Inspector General",
+      "type": "concept",
+      "desc": "The body assigned to address the problem of tax administration fraud.",
+      "ring": 0,
+      "angle": 0.6981311111111111,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "awareness_programs",
+      "label": "Awareness Programs",
+      "type": "concept",
+      "desc": "Educational initiatives designed to reduce the risk of falling victim to scams.",
+      "ring": 2,
+      "angle": 1.1344630555555555,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_demographics",
+      "label": "Victim Demographics",
+      "type": "victim_target",
+      "desc": "Statistical profile indicating victims are mostly aged 20-29 and female.",
+      "ring": 0,
+      "angle": 4.642571888888889,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "indian_arrests",
+      "label": "Indian Arrests",
+      "type": "concept",
+      "desc": "Arrests of individuals from India for impersonating IRS employees.",
+      "ring": 2,
+      "angle": 3.7350014444444444,
+      "sources": [
+        "IRS impersonation scam"
+      ],
+      "doc": "IRS impersonation scam",
+      "crossDoc": false
+    },
+    {
+      "id": "money_mule",
+      "label": "Money Mule",
+      "type": "concept",
+      "desc": "A person who transfers illegally acquired money on behalf of others.",
+      "ring": 0,
+      "angle": 6.178460333333333,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "smurfer",
+      "label": "Smurfer",
+      "type": "concept",
+      "desc": "An alternative term for a money mule involved in fund transfers.",
+      "ring": 0,
+      "angle": 1.2740892777777777,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "illegal_funds",
+      "label": "Illegal Funds",
+      "type": "concept",
+      "desc": "Money acquired through theft or fraud that requires transfer.",
+      "ring": 0,
+      "angle": 2.268926111111111,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "electronic_transfer",
+      "label": "Electronic Transfer",
+      "type": "concept",
+      "desc": "The digital method used by mules to move funds.",
+      "ring": 1,
+      "angle": 3.2986695,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "courier_service",
+      "label": "Courier Service",
+      "type": "concept",
+      "desc": "A physical logistics method used to transfer funds or goods.",
+      "ring": 1,
+      "angle": 5.375609555555555,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "online_recruitment",
+      "label": "Online Recruitment",
+      "type": "concept",
+      "desc": "The process of finding mules via the internet under false pretenses.",
+      "ring": 1,
+      "angle": 1.8325941666666665,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "legitimate_employment_guise",
+      "label": "Legitimate Employment Guise",
+      "type": "concept",
+      "desc": "The deceptive cover story used to recruit unaware mules.",
+      "ring": 2,
+      "angle": 1.1868228888888888,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "small_compensation",
+      "label": "Small Compensation",
+      "type": "concept",
+      "desc": "The minor portion of transferred money paid to the mule.",
+      "ring": 0,
+      "angle": 6.143553777777778,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "illegal_merchandise",
+      "label": "Illegal Merchandise",
+      "type": "concept",
+      "desc": "Goods transferred illegally using techniques similar to money mules.",
+      "ring": 0,
+      "angle": 2.1991129999999997,
+      "sources": [
+        "Money mule"
+      ],
+      "doc": "Money mule",
+      "crossDoc": false
+    },
+    {
+      "id": "romance_scams",
+      "label": "Romance Scams",
+      "type": "concept",
+      "desc": "Fraudulent schemes where criminals fake romantic relationships to steal money.",
+      "ring": 0,
+      "angle": 4.764744833333333,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "fake_online_identity",
+      "label": "Fake Online Identity",
+      "type": "concept",
+      "desc": "A fabricated persona used by scammers to deceive victims.",
+      "ring": 0,
+      "angle": 2.9845104999999994,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_trust",
+      "label": "Victim Trust",
+      "type": "concept",
+      "desc": "The emotional reliance and affection a victim places in the scammer.",
+      "ring": 0,
+      "angle": 4.921824333333333,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_exploitation",
+      "label": "Financial Exploitation",
+      "type": "challenge",
+      "desc": "The act of manipulating victims to transfer funds or assets.",
+      "ring": 2,
+      "angle": 5.4454226666666665,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "gift_cards",
+      "label": "Gift Cards",
+      "type": "technology",
+      "desc": "Prepaid cards often requested by scammers for easy cash-out.",
+      "ring": 1,
+      "angle": 1.954767111111111,
+      "sources": [
+        "Pasted Text",
+        "text",
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": true
+    },
+    {
+      "id": "wire_transfers",
+      "label": "Wire Transfers",
+      "type": "technology",
+      "desc": "Direct bank transfers used to move large sums of money.",
+      "ring": 1,
+      "angle": 2.111846611111111,
+      "sources": [
+        "Pasted Text",
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": true
+    },
+    {
+      "id": "no_in-person_meeting",
+      "label": "No In-Person Meeting",
+      "type": "challenge",
+      "desc": "A red flag where the scammer avoids physical contact.",
+      "ring": 2,
+      "angle": 5.026544,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "emergency_pretext",
+      "label": "Emergency Pretext",
+      "type": "concept",
+      "desc": "Fabricated urgent situations used to justify immediate money requests.",
+      "ring": 0,
+      "angle": 5.567595611111111,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "military_overseas_claim",
+      "label": "Military Overseas Claim",
+      "type": "concept",
+      "desc": "A common false story used to explain why the scammer cannot meet.",
+      "ring": 0,
+      "angle": 4.939277611111111,
+      "sources": [
+        "Pasted Text"
+      ],
+      "doc": "Pasted Text",
+      "crossDoc": false
+    },
+    {
+      "id": "victims",
+      "label": "Victims",
+      "type": "person",
+      "desc": "Individuals targeted by scammers, also known as marks or suckers.",
+      "ring": 2,
+      "angle": 1.5358884444444445,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "scammers",
+      "label": "Scammers",
+      "type": "person",
+      "desc": "Perpetrators who execute fraudulent schemes, also called con artists.",
+      "ring": 2,
+      "angle": 1.7976876111111113,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "shills",
+      "label": "Shills",
+      "type": "person",
+      "desc": "Accomplices employed by scammers to assist in the fraud.",
+      "ring": 2,
+      "angle": 0.24434588888888886,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_exploitation",
+      "label": "Victim Exploitation",
+      "type": "concept",
+      "desc": "The process of exploiting traits like greed, naivety, and vanity.",
+      "ring": 0,
+      "angle": 5.270889888888889,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "trust_gaining",
+      "label": "Trust Gaining",
+      "type": "method",
+      "desc": "The initial step in a scam where the perpetrator builds false trust.",
+      "ring": 1,
+      "angle": 2.111846611111111,
+      "sources": [
+        "Confidence_trick"
+      ],
+      "doc": "Confidence_trick",
+      "crossDoc": false
+    },
+    {
+      "id": "ic3_report",
+      "label": "IC3 Report",
+      "type": "application",
+      "desc": "A comprehensive annual report detailing cybercrime statistics and data.",
+      "ring": 2,
+      "angle": 1.8151408888888887,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complaint_countries",
+      "label": "Complaint Countries",
+      "type": "concept",
+      "desc": "A section listing countries from which cybercrime complaints were received.",
+      "ring": 0,
+      "angle": 2.0769400555555553,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "state_complaints",
+      "label": "State Complaints",
+      "type": "concept",
+      "desc": "Statistics ranking US states by the number of cybercrime complaints.",
+      "ring": 0,
+      "angle": 5.951567722222221,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "state_losses",
+      "label": "State Losses",
+      "type": "concept",
+      "desc": "Statistics ranking US states by financial loss from cybercrime in millions.",
+      "ring": 0,
+      "angle": 0.6457712777777778,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "crime_types",
+      "label": "Crime Types",
+      "type": "concept",
+      "desc": "Categorization of cybercrimes reported in the 2023 dataset.",
+      "ring": 0,
+      "angle": 1.0646499444444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "trend_analysis",
+      "label": "Trend Analysis",
+      "type": "method",
+      "desc": "Comparison of complaint counts and losses over the last three years.",
+      "ring": 1,
+      "angle": 6.073740666666667,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "state_statistics",
+      "label": "State Statistics",
+      "type": "concept",
+      "desc": "Detailed overall statistical data for individual US states.",
+      "ring": 0,
+      "angle": 0.05235983333333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "definitions_appendix",
+      "label": "Definitions Appendix",
+      "type": "concept",
+      "desc": "Appendix providing definitions for terms used in the report.",
+      "ring": 0,
+      "angle": 0.03490655555555555,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "ic3_data_info",
+      "label": "IC3 Data Info",
+      "type": "concept",
+      "desc": "Additional information regarding the methodology and nature of IC3 data.",
+      "ring": 0,
+      "angle": 4.136426833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "public_announcements",
+      "label": "Public Announcements",
+      "type": "application",
+      "desc": "List of public service announcements published by the agency.",
+      "ring": 2,
+      "angle": 5.602502166666667,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "fbi",
+      "label": "FBI",
+      "type": "organization",
+      "desc": "The primary law enforcement agency combating cyber threats in the US.",
+      "ring": 0,
+      "angle": 4.904371055555556,
+      "sources": [
+        "2023_IC3Report.pdf",
+        "text"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": true
+    },
+    {
+      "id": "internet_crime_complaint_center",
+      "label": "Internet Crime Complaint Center",
+      "type": "technology",
+      "desc": "A platform for reporting cybercrime and collecting threat data.",
+      "ring": 1,
+      "angle": 6.056287388888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "cybercriminals",
+      "label": "Cybercriminals",
+      "type": "person",
+      "desc": "Profit-driven actors conducting large-scale fraud and ransom attacks.",
+      "ring": 2,
+      "angle": 5.5501423333333335,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "nation-state_adversaries",
+      "label": "Nation-State Adversaries",
+      "type": "organization",
+      "desc": "State-sponsored actors capable of paralyzing critical infrastructure.",
+      "ring": 0,
+      "angle": 4.782198111111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "business_email_compromise",
+      "label": "Business Email Compromise",
+      "type": "challenge",
+      "desc": "The second-costliest cybercrime involving unauthorized access to email.",
+      "ring": 2,
+      "angle": 3.8920809444444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "hive_ransomware_group",
+      "label": "Hive Ransomware Group",
+      "type": "organization",
+      "desc": "A ransomware group whose infrastructure was infiltrated by the FBI.",
+      "ring": 0,
+      "angle": 4.677478444444445,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "cyber_threat_landscape",
+      "label": "Cyber Threat Landscape",
+      "type": "concept",
+      "desc": "The evolving environment of digital security risks and attacks.",
+      "ring": 0,
+      "angle": 3.1939498333333334,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "private_sector_partnerships",
+      "label": "Private Sector Partnerships",
+      "type": "method",
+      "desc": "Collaborative strategies between the FBI and private entities.",
+      "ring": 1,
+      "angle": 4.625118611111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_reporting_gap",
+      "label": "Victim Reporting Gap",
+      "type": "challenge",
+      "desc": "The discrepancy between actual victims and those reporting to law enforcement.",
+      "ring": 2,
+      "angle": 3.3684826111111112,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "ic3",
+      "label": "IC3",
+      "type": "organization",
+      "desc": "The Internet Crime Complaint Center established in 2000 to receive cyber crime complaints.",
+      "ring": 0,
+      "angle": 4.136426833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "online_fraud",
+      "label": "Online Fraud",
+      "type": "challenge",
+      "desc": "Deceptive practices conducted online, including intellectual property rights matters.",
+      "ring": 2,
+      "angle": 4.276053055555555,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "computer_intrusion",
+      "label": "Computer Intrusion",
+      "type": "challenge",
+      "desc": "Unauthorized access to computer systems, commonly known as hacking.",
+      "ring": 2,
+      "angle": 4.729838277777778,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "economic_espionage",
+      "label": "Economic Espionage",
+      "type": "challenge",
+      "desc": "Theft of trade secrets and other economic intelligence.",
+      "ring": 2,
+      "angle": 5.8119415000000005,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complaint_aggregation",
+      "label": "Complaint Aggregation",
+      "type": "method",
+      "desc": "The process of combining individual complaints to identify trends and connect crimes.",
+      "ring": 1,
+      "angle": 0.3839721111111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "intelligence_dissemination",
+      "label": "Intelligence Dissemination",
+      "type": "method",
+      "desc": "Sharing analyzed crime reports with law enforcement and partners for investigation.",
+      "ring": 1,
+      "angle": 6.248273444444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "law_enforcement_partners",
+      "label": "Law Enforcement Partners",
+      "type": "organization",
+      "desc": "External agencies and field offices that collaborate with the FBI and IC3.",
+      "ring": 0,
+      "angle": 4.188786666666666,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "public_awareness",
+      "label": "Public Awareness",
+      "type": "application",
+      "desc": "Educating the public about cyber threats as part of the prevention mission.",
+      "ring": 2,
+      "angle": 4.502945666666666,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "ic3_rat",
+      "label": "IC3 RAT",
+      "type": "organization",
+      "desc": "The FBI's Rapid Action Team dedicated to investigating and mitigating financial fraud.",
+      "ring": 0,
+      "angle": 1.2217294444444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_fraud_kill_chain",
+      "label": "Financial Fraud Kill Chain",
+      "type": "method",
+      "desc": "A protocol used to rapidly freeze fraudulent funds in financial institutions.",
+      "ring": 1,
+      "angle": 3.2637629444444443,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "funds_freezing",
+      "label": "Funds Freezing",
+      "type": "application",
+      "desc": "The process of halting unauthorized transfers to prevent financial loss.",
+      "ring": 2,
+      "angle": 5.4454226666666665,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "new_york_case",
+      "label": "New York Case",
+      "type": "application",
+      "desc": "A 2023 BEC incident involving a critical infrastructure project with a $50 million loss.",
+      "ring": 2,
+      "angle": 0.4537852222222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "connecticut_case",
+      "label": "Connecticut Case",
+      "type": "application",
+      "desc": "A 2023 BEC incident involving a real estate transaction and a spoofed attorney email.",
+      "ring": 2,
+      "angle": 4.415679277777778,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_institution",
+      "label": "Financial Institution",
+      "type": "organization",
+      "desc": "Banks or entities that process wire transfers and execute fund freezes.",
+      "ring": 0,
+      "angle": 1.2042761666666666,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "victim_complaint",
+      "label": "Victim Complaint",
+      "type": "concept",
+      "desc": "The initial report filed by a victim detailing the fraud incident and losses.",
+      "ring": 0,
+      "angle": 2.7925244444444446,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "second_hop_tracking",
+      "label": "Second Hop Tracking",
+      "type": "method",
+      "desc": "The investigative process of tracing funds to subsequent recipient accounts.",
+      "ring": 1,
+      "angle": 2.1991129999999997,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "khemani",
+      "label": "Khemani",
+      "type": "person",
+      "desc": "Individual sentenced for orchestrating a fraudulent computer technical support ring.",
+      "ring": 2,
+      "angle": 2.3736457777777775,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "sterk_family",
+      "label": "Sterk Family",
+      "type": "person",
+      "desc": "Group of individuals sentenced for laundering money from tech support scams.",
+      "ring": 2,
+      "angle": 4.136426833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "tech_support_scam",
+      "label": "Tech Support Scam",
+      "type": "challenge",
+      "desc": "Fraudulent scheme involving fake technical support to steal money.",
+      "ring": 2,
+      "angle": 4.520398944444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "indian_law_enforcement",
+      "label": "Indian Law Enforcement",
+      "type": "organization",
+      "desc": "Authorities in India collaborating on transnational fraud cases.",
+      "ring": 0,
+      "angle": 2.8972441111111107,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "joint_operations",
+      "label": "Joint Operations",
+      "type": "method",
+      "desc": "Collaborative law enforcement actions between US and Indian agencies.",
+      "ring": 1,
+      "angle": 6.003927555555555,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "call_center_raids",
+      "label": "Call Center Raids",
+      "type": "method",
+      "desc": "Law enforcement actions to disrupt fraudulent call centers.",
+      "ring": 1,
+      "angle": 5.235983333333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "cyber_financial_crimes",
+      "label": "Cyber Financial Crimes",
+      "type": "challenge",
+      "desc": "Illegal financial activities conducted via digital means.",
+      "ring": 2,
+      "angle": 3.5953752222222226,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "senior_citizens",
+      "label": "Senior Citizens",
+      "type": "concept",
+      "desc": "Demographic group frequently targeted by phantom hacker scams.",
+      "ring": 0,
+      "angle": 3.717548166666667,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "internet_crime",
+      "label": "Internet Crime",
+      "type": "concept",
+      "desc": "Criminal activities conducted via the internet, including fraud and data breaches.",
+      "ring": 0,
+      "angle": 5.078903833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complaint_statistics",
+      "label": "Complaint Statistics",
+      "type": "concept",
+      "desc": "Quantitative data regarding the volume and nature of reported crimes.",
+      "ring": 0,
+      "angle": 5.480329222222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "financial_losses",
+      "label": "Financial Losses",
+      "type": "concept",
+      "desc": "Monetary damages reported by victims of internet crimes.",
+      "ring": 0,
+      "angle": 1.553341722222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "age_demographics",
+      "label": "Age Demographics",
+      "type": "concept",
+      "desc": "Categorization of complainants by age groups to analyze victim profiles.",
+      "ring": 0,
+      "angle": 0.26179916666666664,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "international_complaints",
+      "label": "International Complaints",
+      "type": "concept",
+      "desc": "Crimes reported by victims located in countries other than the US.",
+      "ring": 0,
+      "angle": 2.862337555555555,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "united_kingdom",
+      "label": "United Kingdom",
+      "type": "organization",
+      "desc": "The second highest reporting country for international internet crime complaints.",
+      "ring": 0,
+      "angle": 0.1396262222222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "senior_victims",
+      "label": "Senior Victims",
+      "type": "concept",
+      "desc": "Individuals aged 60 and older who report the highest financial losses.",
+      "ring": 0,
+      "angle": 3.1590432777777777,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "2023_internet_crime_report",
+      "label": "2023 Internet Crime Report",
+      "type": "application",
+      "desc": "The specific publication containing the analyzed statistics and charts.",
+      "ring": 2,
+      "angle": 3.769908,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "ic3_data",
+      "label": "IC3 Data",
+      "type": "concept",
+      "desc": "The dataset containing complaint statistics from various U.S. states and territories.",
+      "ring": 0,
+      "angle": 6.021380833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "u.s._states",
+      "label": "U.S. States",
+      "type": "organization",
+      "desc": "Geographic regions within the United States where complaints are recorded.",
+      "ring": 0,
+      "angle": 1.0122901111111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "u.s._territories",
+      "label": "U.S. Territories",
+      "type": "organization",
+      "desc": "American territories such as Guam and American Samoa included in the data.",
+      "ring": 0,
+      "angle": 4.014253888888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "district_of_columbia",
+      "label": "District of Columbia",
+      "type": "organization",
+      "desc": "The federal district included in the complaint reporting scope.",
+      "ring": 0,
+      "angle": 5.1836235,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complainant_information",
+      "label": "Complainant Information",
+      "type": "concept",
+      "desc": "Data provided by complainants regarding their state of residence.",
+      "ring": 0,
+      "angle": 2.967057222222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "appendix_b",
+      "label": "Appendix B",
+      "type": "concept",
+      "desc": "A reference section providing detailed information about the IC3 data.",
+      "ring": 0,
+      "angle": 1.884954,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "internet_crime_report",
+      "label": "Internet Crime Report",
+      "type": "application",
+      "desc": "The annual report detailing statistics on internet crime complaints and losses.",
+      "ring": 2,
+      "angle": 2.3561924999999997,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "california",
+      "label": "California",
+      "type": "organization",
+      "desc": "The US state with the highest reported financial losses from internet crime.",
+      "ring": 0,
+      "angle": 3.124136722222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "texas",
+      "label": "Texas",
+      "type": "organization",
+      "desc": "The US state with the second highest reported financial losses.",
+      "ring": 0,
+      "angle": 0.6806778333333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "florida",
+      "label": "Florida",
+      "type": "organization",
+      "desc": "The US state with the third highest reported financial losses.",
+      "ring": 0,
+      "angle": 3.9618940555555557,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "new_york",
+      "label": "New York",
+      "type": "organization",
+      "desc": "The US state with the fourth highest reported financial losses.",
+      "ring": 0,
+      "angle": 5.026544,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complaint_submission",
+      "label": "Complaint Submission",
+      "type": "method",
+      "desc": "The process by which complainants provide state information to the IC3.",
+      "ring": 1,
+      "angle": 5.742128388888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complaint_count",
+      "label": "Complaint Count",
+      "type": "concept",
+      "desc": "The total number of complaints filed where state information was provided.",
+      "ring": 0,
+      "angle": 4.956730888888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "fbi_ic3",
+      "label": "FBI IC3",
+      "type": "organization",
+      "desc": "The Federal Bureau of Investigation's Internet Crime Complaint Center.",
+      "ring": 0,
+      "angle": 1.6231548333333332,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "per_capita_rate",
+      "label": "Per Capita Rate",
+      "type": "concept",
+      "desc": "Metric measuring complaints per 100,000 citizens.",
+      "ring": 0,
+      "angle": 2.094393333333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "west_virginia",
+      "label": "West Virginia",
+      "type": "organization",
+      "desc": "State with the lowest complaint rate per capita in the list.",
+      "ring": 0,
+      "angle": 1.9896736666666666,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "census_data",
+      "label": "Census Data",
+      "type": "concept",
+      "desc": "Estimated 2023 population data used for calculations.",
+      "ring": 0,
+      "angle": 1.8675007222222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "state_ranking",
+      "label": "State Ranking",
+      "type": "concept",
+      "desc": "Ordering of jurisdictions based on complaint volume per capita.",
+      "ring": 0,
+      "angle": 6.021380833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "advanced_fee_scam",
+      "label": "Advanced Fee Scam",
+      "type": "challenge",
+      "desc": "A fraud where victims pay for expected value but receive little or nothing.",
+      "ring": 2,
+      "angle": 5.305796444444445,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "botnet",
+      "label": "Botnet",
+      "type": "technology",
+      "desc": "A network of compromised computers controlled remotely for illegal activities.",
+      "ring": 1,
+      "angle": 2.8797908333333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "ddos_attack",
+      "label": "DDoS Attack",
+      "type": "challenge",
+      "desc": "Distributed Denial of Service attack disrupting network availability.",
+      "ring": 2,
+      "angle": 1.640608111111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "grandparent_scheme",
+      "label": "Grandparent Scheme",
+      "type": "challenge",
+      "desc": "A specific type of romance scam preying on emotional trust.",
+      "ring": 2,
+      "angle": 4.293506333333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "credit_card_fraud",
+      "label": "Credit Card Fraud",
+      "type": "challenge",
+      "desc": "Theft or fraud committed using credit cards or similar payment mechanisms.",
+      "ring": 2,
+      "angle": 1.7976876111111113,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "wire_transfer",
+      "label": "Wire Transfer",
+      "type": "technology",
+      "desc": "Electronic transfer of funds often targeted by BEC fraudsters.",
+      "ring": 1,
+      "angle": 4.380772722222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "employment_fraud",
+      "label": "Employment Fraud",
+      "type": "challenge",
+      "desc": "Loss of money or money laundering occurring during legitimate employment.",
+      "ring": 2,
+      "angle": 4.276053055555555,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "extortion",
+      "label": "Extortion",
+      "type": "challenge",
+      "desc": "Unlawful extraction of money or property through intimidation or authority.",
+      "ring": 2,
+      "angle": 0.0,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "government_impersonation",
+      "label": "Government Impersonation",
+      "type": "challenge",
+      "desc": "Impersonating a government official to collect money.",
+      "ring": 2,
+      "angle": 5.951567722222221,
+      "sources": [
+        "2023_IC3Report.pdf",
+        "text"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": true
+    },
+    {
+      "id": "harassment_and_stalking",
+      "label": "Harassment and Stalking",
+      "type": "challenge",
+      "desc": "Repeated conduct directed at a person to cause fear or distress.",
+      "ring": 2,
+      "angle": 4.782198111111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "investment_scam",
+      "label": "Investment Scam",
+      "type": "challenge",
+      "desc": "Deceptive practices inducing purchases based on false information.",
+      "ring": 2,
+      "angle": 3.455749,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "ipr_and_counterfeit",
+      "label": "IPR and Counterfeit",
+      "type": "challenge",
+      "desc": "Illegal theft and use of intellectual property and creative expressions.",
+      "ring": 2,
+      "angle": 5.043997277777778,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "lottery_and_sweepstakes_fraud",
+      "label": "Lottery and Sweepstakes Fraud",
+      "type": "challenge",
+      "desc": "Contacting individuals about winning prizes they never entered.",
+      "ring": 2,
+      "angle": 4.310959611111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "malware",
+      "label": "Malware",
+      "type": "technology",
+      "desc": "Software or code intended to damage, disable, or copy systems.",
+      "ring": 1,
+      "angle": 5.742128388888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "personal_information",
+      "label": "Personal Information",
+      "type": "concept",
+      "desc": "Personally identifiable data used in fraud or deception.",
+      "ring": 0,
+      "angle": 0.0,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "individual_filers",
+      "label": "Individual Filers",
+      "type": "concept",
+      "desc": "The distinct individuals who file complaints, which may differ from complaint counts.",
+      "ring": 0,
+      "angle": 6.248273444444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "scam_subject",
+      "label": "Scam Subject",
+      "type": "person",
+      "desc": "The individual identified as perpetrating the scam by the complainant.",
+      "ring": 2,
+      "angle": 2.286379388888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "subject_count",
+      "label": "Subject Count",
+      "type": "concept",
+      "desc": "The number of scam subjects reported per state.",
+      "ring": 0,
+      "angle": 5.567595611111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "attributed_losses",
+      "label": "Attributed Losses",
+      "type": "concept",
+      "desc": "The amount of money swindled by a subject as reported by complainants.",
+      "ring": 0,
+      "angle": 3.5255621111111113,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "destination_state",
+      "label": "Destination State",
+      "type": "concept",
+      "desc": "The state where the financial loss is attributed or incurred.",
+      "ring": 0,
+      "angle": 6.021380833333333,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "complainant",
+      "label": "Complainant",
+      "type": "person",
+      "desc": "The person reporting the scam and providing data on subjects and losses.",
+      "ring": 2,
+      "angle": 4.782198111111111,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "timeshare_scam",
+      "label": "Timeshare Scam",
+      "type": "challenge",
+      "desc": "Criminal activity targeting owners of timeshares in Mexico.",
+      "ring": 2,
+      "angle": 6.073740666666667,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "cryptocurrency_scam",
+      "label": "Cryptocurrency Scam",
+      "type": "challenge",
+      "desc": "Investment schemes and theft involving digital assets.",
+      "ring": 2,
+      "angle": 5.899207888888889,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "play-to-earn_games",
+      "label": "Play-to-Earn Games",
+      "type": "technology",
+      "desc": "Gaming platforms used by criminals to steal cryptocurrency.",
+      "ring": 1,
+      "angle": 4.066613722222222,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "sextortion",
+      "label": "Sextortion",
+      "type": "challenge",
+      "desc": "Criminal scheme involving explicit content and extortion.",
+      "ring": 2,
+      "angle": 1.7976876111111113,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "nft_scam",
+      "label": "NFT Scam",
+      "type": "challenge",
+      "desc": "Fraudulent activities posing as NFT developers.",
+      "ring": 2,
+      "angle": 1.2740892777777777,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "mobile_beta-testing",
+      "label": "Mobile Beta-Testing",
+      "type": "technology",
+      "desc": "Applications used by cybercriminals to target victims.",
+      "ring": 1,
+      "angle": 1.2217294444444444,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "recovery_scam",
+      "label": "Recovery Scam",
+      "type": "challenge",
+      "desc": "Companies falsely claiming to recover lost funds.",
+      "ring": 2,
+      "angle": 2.3038326666666666,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "public_service_announcement",
+      "label": "Public Service Announcement",
+      "type": "application",
+      "desc": "Official warnings and guidance published by the FBI.",
+      "ring": 2,
+      "angle": 2.513272,
+      "sources": [
+        "2023_IC3Report.pdf"
+      ],
+      "doc": "2023_IC3Report.pdf",
+      "crossDoc": false
+    },
+    {
+      "id": "consumer_fraud",
+      "label": "Consumer Fraud",
+      "type": "challenge",
+      "desc": "Illegal activities costing Americans billions annually.",
+      "ring": 2,
+      "angle": 3.9968006111111105,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "phishing_attack",
+      "label": "Phishing Attack",
+      "type": "method",
+      "desc": "Social engineering technique to steal sensitive information.",
+      "ring": 1,
+      "angle": 3.7873612777777774,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "vishing",
+      "label": "Vishing",
+      "type": "method",
+      "desc": "Voice phishing using spoofed phone calls.",
+      "ring": 1,
+      "angle": 5.777034944444444,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "fake_website",
+      "label": "Fake Website",
+      "type": "technology",
+      "desc": "Impersonation site designed to capture user credentials.",
+      "ring": 1,
+      "angle": 1.0821032222222222,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "spoofed_caller_id",
+      "label": "Spoofed Caller ID",
+      "type": "technology",
+      "desc": "Technology used to display legitimate numbers in vishing.",
+      "ring": 1,
+      "angle": 3.2637629444444443,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "fake_job_ads",
+      "label": "Fake Job Ads",
+      "type": "method",
+      "desc": "Deceptive advertisements used to recruit money mules for payment processing roles.",
+      "ring": 1,
+      "angle": 2.443458888888889,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "lottery_scams",
+      "label": "Lottery Scams",
+      "type": "method",
+      "desc": "Fraudulent schemes claiming victims won prizes but require upfront fees to release funds.",
+      "ring": 1,
+      "angle": 1.3613556666666666,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "elderly_victims",
+      "label": "Elderly Victims",
+      "type": "person",
+      "desc": "Older individuals frequently targeted by lottery and prize scams.",
+      "ring": 2,
+      "angle": 5.951567722222221,
+      "sources": [
+        "text",
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "text",
+      "crossDoc": true
+    },
+    {
+      "id": "reload_fraud",
+      "label": "Reload Fraud",
+      "type": "method",
+      "desc": "Re-targeting previous victims with false promises of recovering prior losses.",
+      "ring": 1,
+      "angle": 1.6231548333333332,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "irs_agents",
+      "label": "IRS Agents",
+      "type": "organization",
+      "desc": "Internal Revenue Service officials often impersonated in fraud schemes.",
+      "ring": 0,
+      "angle": 5.253436611111111,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "social_security_admin",
+      "label": "Social Security Admin",
+      "type": "organization",
+      "desc": "Agency whose employees are frequently impersonated to threaten benefit termination.",
+      "ring": 0,
+      "angle": 1.6057015555555554,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "threat_tactics",
+      "label": "Threat Tactics",
+      "type": "challenge",
+      "desc": "Intimidation strategies involving arrest or deportation threats to force payment.",
+      "ring": 2,
+      "angle": 3.2288563888888886,
+      "sources": [
+        "text"
+      ],
+      "doc": "text",
+      "crossDoc": false
+    },
+    {
+      "id": "ransomware",
+      "label": "Ransomware",
+      "type": "concept",
+      "desc": "Malicious software that holds victim data hostage for ransom.",
+      "ring": 0,
+      "angle": 0.19198605555555556,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "data_encryption",
+      "label": "Data Encryption",
+      "type": "method",
+      "desc": "Process of converting data into unreadable format to prevent access.",
+      "ring": 1,
+      "angle": 0.5061450555555556,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "data_exfiltration",
+      "label": "Data Exfiltration",
+      "type": "method",
+      "desc": "Unauthorized transfer of data from a computer system.",
+      "ring": 1,
+      "angle": 3.7000948888888887,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "trojan_horse",
+      "label": "Trojan Horse",
+      "type": "technology",
+      "desc": "Malware disguised as legitimate software to trick users.",
+      "ring": 1,
+      "angle": 0.9948368333333333,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "wannacry_worm",
+      "label": "WannaCry Worm",
+      "type": "technology",
+      "desc": "High-profile ransomware worm that spreads automatically.",
+      "ring": 1,
+      "angle": 3.9618940555555557,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "aids_trojan",
+      "label": "AIDS Trojan",
+      "type": "technology",
+      "desc": "First documented ransomware from 1989.",
+      "ring": 1,
+      "angle": 4.660025166666666,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "email_attachment",
+      "label": "Email Attachment",
+      "type": "application",
+      "desc": "Common vector for delivering ransomware payloads.",
+      "ring": 2,
+      "angle": 0.0698131111111111,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "cryptographic_keys",
+      "label": "Cryptographic Keys",
+      "type": "concept",
+      "desc": "Secret codes used for encryption and decryption.",
+      "ring": 0,
+      "angle": 3.5953752222222226,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "prosecution_difficulty",
+      "label": "Prosecution Difficulty",
+      "type": "challenge",
+      "desc": "Legal challenge in prosecuting ransomware crimes due to anonymity.",
+      "ring": 2,
+      "angle": 4.293506333333333,
+      "sources": [
+        "Ransomware"
+      ],
+      "doc": "Ransomware",
+      "crossDoc": false
+    },
+    {
+      "id": "sim_swap_fraud",
+      "label": "SIM Swap Fraud",
+      "type": "challenge",
+      "desc": "A cybercrime technique where attackers hijack a victim's mobile number to bypass two-factor authentication.",
+      "ring": 2,
+      "angle": 0.9599302777777778,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "uk_national_fraud_database",
+      "label": "UK National Fraud Database",
+      "type": "organization",
+      "desc": "A central repository in the UK that tracks and reports various types of fraud incidents.",
+      "ring": 0,
+      "angle": 2.9496039444444446,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "cifas",
+      "label": "Cifas",
+      "type": "organization",
+      "desc": "A UK fraud prevention organization that records and analyzes unauthorized SIM swap cases.",
+      "ring": 0,
+      "angle": 3.071776888888889,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "safaricom",
+      "label": "Safaricom",
+      "type": "organization",
+      "desc": "A major telecommunications provider in Kenya serving a large portion of the country's mobile users.",
+      "ring": 0,
+      "angle": 4.241146499999999,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "kenya_mobile_market",
+      "label": "Kenya Mobile Market",
+      "type": "application",
+      "desc": "The telecommunications sector in Kenya where SIM swapping incidents have recently surged.",
+      "ring": 2,
+      "angle": 0.9773835555555554,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "south_korea_incidents",
+      "label": "South Korea Incidents",
+      "type": "application",
+      "desc": "Documented cases of SIM swapping attacks occurring in South Korea since 2022.",
+      "ring": 2,
+      "angle": 2.0420335,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "service_disruption",
+      "label": "Service Disruption",
+      "type": "challenge",
+      "desc": "The abrupt interruption of mobile services experienced by victims during a SIM swap attack.",
+      "ring": 2,
+      "angle": 2.6179916666666667,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "account_compromise",
+      "label": "Account Compromise",
+      "type": "challenge",
+      "desc": "The unauthorized access to bank and cryptocurrency accounts resulting from stolen mobile credentials.",
+      "ring": 2,
+      "angle": 0.6457712777777778,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "ss7_vulnerabilities",
+      "label": "SS7 Vulnerabilities",
+      "type": "technology",
+      "desc": "Security flaws in the Signaling System 7 protocol that allow for the misrouting of SMS messages.",
+      "ring": 1,
+      "angle": 4.520398944444444,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "cryptocurrency_accounts",
+      "label": "Cryptocurrency Accounts",
+      "type": "application",
+      "desc": "Digital wallet services that are frequently targeted after a successful SIM swap attack.",
+      "ring": 2,
+      "angle": 1.1519163333333333,
+      "sources": [
+        "SIM swap attack"
+      ],
+      "doc": "SIM swap attack",
+      "crossDoc": false
+    },
+    {
+      "id": "online_refund_scam",
+      "label": "Online Refund Scam",
+      "type": "challenge",
+      "desc": "A fraud scheme where scammers impersonate companies to steal money under the guise of processing refunds.",
+      "ring": 2,
+      "angle": 2.530725277777778,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "technical_support_scam",
+      "label": "Technical Support Scam",
+      "type": "challenge",
+      "desc": "A type of fraud where scammers pose as IT support to gain remote access to victims' computers.",
+      "ring": 2,
+      "angle": 5.689768555555555,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "remote_access_software",
+      "label": "Remote Access Software",
+      "type": "technology",
+      "desc": "Tools used by scammers to control victims' computers remotely during fraud attempts.",
+      "ring": 1,
+      "angle": 5.4977825,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "business_payment_scam",
+      "label": "Business Payment Scam",
+      "type": "challenge",
+      "desc": "A fraud tactic on marketplaces where victims are tricked into paying for fake business account upgrades.",
+      "ring": 2,
+      "angle": 0.8377573333333332,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "online_marketplace",
+      "label": "Online Marketplace",
+      "type": "application",
+      "desc": "Platforms like Facebook Marketplace where business payment scams are frequently initiated.",
+      "ring": 2,
+      "angle": 4.939277611111111,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "payment_processor",
+      "label": "Payment Processor",
+      "type": "organization",
+      "desc": "Financial services providers like Venmo or Zelle that are impersonated in business payment scams.",
+      "ring": 0,
+      "angle": 1.553341722222222,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "bogus_payment_notice",
+      "label": "Bogus Payment Notice",
+      "type": "concept",
+      "desc": "A fraudulent document sent to victims to justify additional fees for account upgrades.",
+      "ring": 0,
+      "angle": 4.694931722222222,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "scambaiting",
+      "label": "Scambaiting",
+      "type": "method",
+      "desc": "The practice of wasting scammers' time and resources to disrupt their operations.",
+      "ring": 1,
+      "angle": 6.19591361111111,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "kitboga",
+      "label": "Kitboga",
+      "type": "person",
+      "desc": "A Twitch streamer and YouTuber known for baiting online refund scammers.",
+      "ring": 2,
+      "angle": 4.991637444444445,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "jim_browning",
+      "label": "Jim Browning",
+      "type": "person",
+      "desc": "A YouTuber who creates content aimed at stopping online refund and other scams.",
+      "ring": 2,
+      "angle": 0.1570795,
+      "sources": [
+        "Grandparent scam"
+      ],
+      "doc": "Grandparent scam",
+      "crossDoc": false
+    },
+    {
+      "id": "ftc",
+      "label": "FTC",
+      "type": "organization",
+      "desc": "The Federal Trade Commission issuing warnings about fraud.",
+      "ring": 0,
+      "angle": 2.408552333333333,
+      "sources": [
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "FTC Grandparent Scam Alert",
+      "crossDoc": false
+    },
+    {
+      "id": "grandparent_scam",
+      "label": "Grandparent Scam",
+      "type": "challenge",
+      "desc": "A fraud scheme targeting elderly individuals through impersonation.",
+      "ring": 2,
+      "angle": 1.256636,
+      "sources": [
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "FTC Grandparent Scam Alert",
+      "crossDoc": false
+    },
+    {
+      "id": "fraudsters",
+      "label": "Fraudsters",
+      "type": "person",
+      "desc": "Individuals executing the grandparent scam.",
+      "ring": 2,
+      "angle": 5.462875944444444,
+      "sources": [
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "FTC Grandparent Scam Alert",
+      "crossDoc": false
+    },
+    {
+      "id": "impersonation",
+      "label": "Impersonation",
+      "type": "method",
+      "desc": "Pretending to be a grandchild in trouble.",
+      "ring": 1,
+      "angle": 4.310959611111111,
+      "sources": [
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "FTC Grandparent Scam Alert",
+      "crossDoc": false
+    },
+    {
+      "id": "secrecy_request",
+      "label": "Secrecy Request",
+      "type": "method",
+      "desc": "Demand for victims to hide the incident from family.",
+      "ring": 1,
+      "angle": 4.223693222222222,
+      "sources": [
+        "FTC Grandparent Scam Alert"
+      ],
+      "doc": "FTC Grandparent Scam Alert",
+      "crossDoc": false
+    },
+    {
+      "id": "wikipedia",
+      "label": "Wikipedia",
+      "type": "organization",
+      "desc": "The online encyclopedia source for this information.",
+      "ring": 0,
+      "angle": 2.6703514999999998,
+      "sources": [
+        "Phishing"
+      ],
+      "doc": "Phishing",
+      "crossDoc": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "phishing",
+      "target": "social_engineering",
+      "relation": "is a form of",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_email",
+      "target": "phishing",
+      "relation": "is a vector for",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_email",
+      "target": "fraudulent_domain",
+      "relation": "contains",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_email",
+      "target": "incorrect_branding",
+      "relation": "exhibits",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_email",
+      "target": "generic_information",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_email",
+      "target": "spelling_errors",
+      "relation": "may contain",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_email",
+      "target": "sense_of_urgency",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "fraudulent_domain",
+      "target": "phishing",
+      "relation": "facilitates",
+      "doc": "seeded"
+    },
+    {
+      "source": "sense_of_urgency",
+      "target": "social_engineering",
+      "relation": "is a tactic of",
+      "doc": "seeded"
+    },
+    {
+      "source": "fraudster",
+      "target": "victim",
+      "relation": "steals identity from",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "fraud",
+      "relation": "is a form of",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "identity_piracy",
+      "relation": "is also known as",
+      "doc": "seeded"
+    },
+    {
+      "source": "fraudster",
+      "target": "tax_return",
+      "relation": "files fraudulent",
+      "doc": "seeded"
+    },
+    {
+      "source": "tax_return",
+      "target": "irs",
+      "relation": "submitted to",
+      "doc": "seeded"
+    },
+    {
+      "source": "irs",
+      "target": "fraudster",
+      "relation": "issues refund to",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "tax_return",
+      "relation": "submits legitimate",
+      "doc": "seeded"
+    },
+    {
+      "source": "irs",
+      "target": "victim",
+      "relation": "rejects return for",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "united_states",
+      "relation": "primarily discussed in context of",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scam",
+      "target": "fake_check",
+      "relation": "may include",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scam",
+      "target": "claims_agent",
+      "relation": "involves contact with",
+      "doc": "seeded"
+    },
+    {
+      "source": "claims_agent",
+      "target": "processing_fees",
+      "relation": "requests payment of",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scam",
+      "target": "legitimate_lottery_orgs",
+      "relation": "impersonates names of",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam_identification",
+      "target": "free_email_accounts",
+      "relation": "checks for usage of",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam_identification",
+      "target": "confidentiality_instruction",
+      "relation": "looks for presence of",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam_identification",
+      "target": "no_ticket_rule",
+      "relation": "applies logic of",
+      "doc": "seeded"
+    },
+    {
+      "source": "confidentiality_instruction",
+      "target": "lottery_scam",
+      "relation": "is a tactic of",
+      "doc": "seeded"
+    },
+    {
+      "source": "processing_fees",
+      "target": "lottery_scam",
+      "relation": "is the goal of",
+      "doc": "seeded"
+    },
+    {
+      "source": "legitimate_lottery_orgs",
+      "target": "lottery_scam",
+      "relation": "is not involved in",
+      "doc": "seeded"
+    },
+    {
+      "source": "free_email_accounts",
+      "target": "lottery_scam",
+      "relation": "is a common source of",
+      "doc": "seeded"
+    },
+    {
+      "source": "pyramid_scheme",
+      "target": "exponential_growth",
+      "relation": "follows mathematics of",
+      "doc": "seeded"
+    },
+    {
+      "source": "pyramid_scheme",
+      "target": "geometric_sequence",
+      "relation": "resembles structure of",
+      "doc": "seeded"
+    },
+    {
+      "source": "pyramid_scheme",
+      "target": "new_recruits",
+      "relation": "depends on",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_recruits",
+      "target": "lower_levels",
+      "relation": "populate",
+      "doc": "seeded"
+    },
+    {
+      "source": "lower_levels",
+      "target": "financial_loss",
+      "relation": "suffer",
+      "doc": "seeded"
+    },
+    {
+      "source": "top_members",
+      "target": "pyramid_scheme",
+      "relation": "profit from",
+      "doc": "seeded"
+    },
+    {
+      "source": "scheme_collapse",
+      "target": "new_recruits",
+      "relation": "caused by lack of",
+      "doc": "seeded"
+    },
+    {
+      "source": "pyramid_scheme",
+      "target": "scheme_collapse",
+      "relation": "inevitably leads to",
+      "doc": "seeded"
+    },
+    {
+      "source": "member_recruitment",
+      "target": "pyramid_scheme",
+      "relation": "sustains",
+      "doc": "seeded"
+    },
+    {
+      "source": "lower_levels",
+      "target": "top_members",
+      "relation": "fund",
+      "doc": "seeded"
+    },
+    {
+      "source": "email_fraud",
+      "target": "personal_gain",
+      "relation": "seeks",
+      "doc": "seeded"
+    },
+    {
+      "source": "email_fraud",
+      "target": "confidence_trick",
+      "relation": "takes form of",
+      "doc": "seeded"
+    },
+    {
+      "source": "email_fraud",
+      "target": "email_spoofing",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "email_spoofing",
+      "target": "falsified_origin",
+      "relation": "uses",
+      "doc": "seeded"
+    },
+    {
+      "source": "email_spoofing",
+      "target": "phishing",
+      "relation": "is known as",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing",
+      "target": "spear_phishing",
+      "relation": "has specialized variant",
+      "doc": "seeded"
+    },
+    {
+      "source": "spear_phishing",
+      "target": "naive_individuals",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "spear_phishing",
+      "target": "sensitive_information",
+      "relation": "aims to reveal",
+      "doc": "seeded"
+    },
+    {
+      "source": "spear_phishing",
+      "target": "malicious_actions",
+      "relation": "induces",
+      "doc": "seeded"
+    },
+    {
+      "source": "confidence_trick",
+      "target": "naive_individuals",
+      "relation": "exploits",
+      "doc": "seeded"
+    },
+    {
+      "source": "email_fraud",
+      "target": "naive_individuals",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam",
+      "target": "confidence_trick",
+      "relation": "is also known as",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammer",
+      "target": "victim",
+      "relation": "defrauds",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammer",
+      "target": "shill",
+      "relation": "employs",
+      "doc": "seeded"
+    },
+    {
+      "source": "confidence_trick",
+      "target": "credulity",
+      "relation": "exploits",
+      "doc": "seeded"
+    },
+    {
+      "source": "confidence_trick",
+      "target": "greed",
+      "relation": "exploits",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam",
+      "target": "fraudulent_conduct",
+      "relation": "is a species of",
+      "doc": "seeded"
+    },
+    {
+      "source": "fraudulent_conduct",
+      "target": "voluntary_exchange",
+      "relation": "manipulates",
+      "doc": "seeded"
+    },
+    {
+      "source": "short_con",
+      "target": "scam",
+      "relation": "is a type of",
+      "doc": "seeded"
+    },
+    {
+      "source": "long_con",
+      "target": "scam",
+      "relation": "is a type of",
+      "doc": "seeded"
+    },
+    {
+      "source": "long_con",
+      "target": "shill",
+      "relation": "may involve",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "credulity",
+      "relation": "possesses",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "greed",
+      "relation": "possesses",
+      "doc": "seeded"
+    },
+    {
+      "source": "pig_butchering_scam",
+      "target": "romance_baiting",
+      "relation": "is also known as",
+      "doc": "seeded"
+    },
+    {
+      "source": "pig_butchering_scam",
+      "target": "cryptocurrency_fraud",
+      "relation": "often involves",
+      "doc": "seeded"
+    },
+    {
+      "source": "pig_butchering_scam",
+      "target": "catfishing",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "pig_butchering_scam",
+      "target": "social_media",
+      "relation": "operates on",
+      "doc": "seeded"
+    },
+    {
+      "source": "pig_butchering_scam",
+      "target": "dating_apps",
+      "relation": "operates on",
+      "doc": "seeded"
+    },
+    {
+      "source": "unsolicited_contact",
+      "target": "financial_profiling",
+      "relation": "aims to enable",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_profiling",
+      "target": "trust_cultivation",
+      "relation": "precedes",
+      "doc": "seeded"
+    },
+    {
+      "source": "trust_cultivation",
+      "target": "cryptocurrency_fraud",
+      "relation": "leads to",
+      "doc": "seeded"
+    },
+    {
+      "source": "cryptocurrency_fraud",
+      "target": "fake_trading_platforms",
+      "relation": "uses",
+      "doc": "seeded"
+    },
+    {
+      "source": "fake_trading_platforms",
+      "target": "pig_butchering_scam",
+      "relation": "supports",
+      "doc": "seeded"
+    },
+    {
+      "source": "catfishing",
+      "target": "dating_apps",
+      "relation": "occurs via",
+      "doc": "seeded"
+    },
+    {
+      "source": "unsolicited_contact",
+      "target": "social_media",
+      "relation": "initiates on",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "personally_identifiable_information",
+      "relation": "involves misuse of",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "financial_fraud",
+      "relation": "leads to",
+      "doc": "seeded"
+    },
+    {
+      "source": "data_breach",
+      "target": "identity_theft",
+      "relation": "may cause",
+      "doc": "seeded"
+    },
+    {
+      "source": "us_gao_study",
+      "target": "data_breach",
+      "relation": "analyzes link to",
+      "doc": "seeded"
+    },
+    {
+      "source": "us_gao_study",
+      "target": "identity_theft",
+      "relation": "finds low correlation with",
+      "doc": "seeded"
+    },
+    {
+      "source": "ftc_report",
+      "target": "identity_theft",
+      "relation": "notes difficulty in detecting",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_impact",
+      "target": "identity_theft",
+      "relation": "results from",
+      "doc": "seeded"
+    },
+    {
+      "source": "payment_card_breach",
+      "target": "data_breach",
+      "relation": "is an example of",
+      "doc": "seeded"
+    },
+    {
+      "source": "payment_card_breach",
+      "target": "identity_theft",
+      "relation": "resulted in limited instances of",
+      "doc": "seeded"
+    },
+    {
+      "source": "cyber_crime",
+      "target": "identity_theft",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "legal_definition",
+      "target": "identity_theft",
+      "relation": "formally defines",
+      "doc": "seeded"
+    },
+    {
+      "source": "personally_identifiable_information",
+      "target": "data_breach",
+      "relation": "is often stolen in",
+      "doc": "seeded"
+    },
+    {
+      "source": "nigerian_prince_scam",
+      "target": "nigerian_criminal_code",
+      "relation": "named after",
+      "doc": "seeded"
+    },
+    {
+      "source": "letter_from_jerusalem",
+      "target": "spanish_prisoner_scam",
+      "relation": "illustrates a variant of",
+      "doc": "seeded"
+    },
+    {
+      "source": "nigerian_prince_scam",
+      "target": "online_communications",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "nigeria",
+      "target": "money_flipping",
+      "relation": "is associated with",
+      "doc": "seeded"
+    },
+    {
+      "source": "initial_contact",
+      "target": "fake_identity",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "initial_contact",
+      "target": "unclaimed_assets",
+      "relation": "proposes",
+      "doc": "seeded"
+    },
+    {
+      "source": "nigeria",
+      "target": "cybercafes",
+      "relation": "experienced boom in",
+      "doc": "seeded"
+    },
+    {
+      "source": "nigeria",
+      "target": "economic_crises",
+      "relation": "suffered from",
+      "doc": "seeded"
+    },
+    {
+      "source": "criminal_network",
+      "target": "scammer",
+      "relation": "employs",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammer",
+      "target": "emotional_manipulation",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "emotional_manipulation",
+      "target": "victim",
+      "relation": "influences",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "financial_request",
+      "relation": "responds_to",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammer",
+      "target": "financial_request",
+      "relation": "initiates",
+      "doc": "seeded"
+    },
+    {
+      "source": "criminal_network",
+      "target": "dating_websites",
+      "relation": "operates_on",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammer",
+      "target": "private_communication",
+      "relation": "requests",
+      "doc": "seeded"
+    },
+    {
+      "source": "private_communication",
+      "target": "victim",
+      "relation": "isolates",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_stigma",
+      "target": "victim",
+      "relation": "deters",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "bank_intervention",
+      "relation": "triggers",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_request",
+      "target": "victim",
+      "relation": "exploits",
+      "doc": "seeded"
+    },
+    {
+      "source": "scheme_operator",
+      "target": "ponzi_scheme",
+      "relation": "operates",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "high_return_deception",
+      "relation": "relies on",
+      "doc": "seeded"
+    },
+    {
+      "source": "scheme_operator",
+      "target": "withdrawal_restriction",
+      "relation": "implements",
+      "doc": "seeded"
+    },
+    {
+      "source": "withdrawal_restriction",
+      "target": "cash_flow",
+      "relation": "preserves",
+      "doc": "seeded"
+    },
+    {
+      "source": "scheme_operator",
+      "target": "solvent_illusion",
+      "relation": "creates",
+      "doc": "seeded"
+    },
+    {
+      "source": "legitimate_vehicle",
+      "target": "ponzi_scheme",
+      "relation": "degenerates into",
+      "doc": "seeded"
+    },
+    {
+      "source": "investment_failure",
+      "target": "legitimate_vehicle",
+      "relation": "triggers",
+      "doc": "seeded"
+    },
+    {
+      "source": "scheme_operator",
+      "target": "fraudulent_audit",
+      "relation": "produces",
+      "doc": "seeded"
+    },
+    {
+      "source": "fraudulent_audit",
+      "target": "investment_failure",
+      "relation": "conceals",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_investors",
+      "target": "cash_flow",
+      "relation": "provide",
+      "doc": "seeded"
+    },
+    {
+      "source": "cash_flow",
+      "target": "ponzi_scheme",
+      "relation": "sustains",
+      "doc": "seeded"
+    },
+    {
+      "source": "high_return_deception",
+      "target": "new_investors",
+      "relation": "attracts",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mules",
+      "target": "bank_accounts",
+      "relation": "open using",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mules",
+      "target": "fraudulent_identification",
+      "relation": "utilize",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mules",
+      "target": "stolen_funds",
+      "relation": "receive and withdraw",
+      "doc": "seeded"
+    },
+    {
+      "source": "cybercrime_syndicates",
+      "target": "paycheck_protection_program",
+      "relation": "target for fraud",
+      "doc": "seeded"
+    },
+    {
+      "source": "cybercrime_syndicates",
+      "target": "automated_scripts",
+      "relation": "deploy",
+      "doc": "seeded"
+    },
+    {
+      "source": "automated_scripts",
+      "target": "paycheck_protection_program",
+      "relation": "submit fraudulent claims to",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mules",
+      "target": "cryptocurrency",
+      "relation": "convert funds into",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mules",
+      "target": "cybercrime_syndicates",
+      "relation": "transfer funds to",
+      "doc": "seeded"
+    },
+    {
+      "source": "stolen_funds",
+      "target": "money_laundering",
+      "relation": "subject to",
+      "doc": "seeded"
+    },
+    {
+      "source": "huione_guarantee",
+      "target": "telegram",
+      "relation": "operated on",
+      "doc": "seeded"
+    },
+    {
+      "source": "telegram",
+      "target": "huione_guarantee",
+      "relation": "blocked",
+      "doc": "seeded"
+    },
+    {
+      "source": "cambodian_authorities",
+      "target": "zhi",
+      "relation": "arrested and extradited",
+      "doc": "seeded"
+    },
+    {
+      "source": "cambodian_authorities",
+      "target": "ly_kuong",
+      "relation": "charged with crimes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ly_kuong",
+      "target": "scam_compounds",
+      "relation": "associated with",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam_compounds",
+      "target": "romance_fraud",
+      "relation": "facilitated",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam_compounds",
+      "target": "investment_fraud",
+      "relation": "facilitated",
+      "doc": "seeded"
+    },
+    {
+      "source": "investment_fraud",
+      "target": "cryptocurrency",
+      "relation": "utilized",
+      "doc": "seeded"
+    },
+    {
+      "source": "romance_fraud",
+      "target": "psychological_impact",
+      "relation": "caused",
+      "doc": "seeded"
+    },
+    {
+      "source": "investment_fraud",
+      "target": "psychological_impact",
+      "relation": "caused",
+      "doc": "seeded"
+    },
+    {
+      "source": "huione_pay",
+      "target": "huione_guarantee",
+      "relation": "part of group",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "identity_fraud",
+      "relation": "often leads to",
+      "doc": "seeded"
+    },
+    {
+      "source": "data_breach",
+      "target": "personally_identifiable_information",
+      "relation": "exposes",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "identity_theft",
+      "relation": "suffers from",
+      "doc": "seeded"
+    },
+    {
+      "source": "hacker",
+      "target": "cyber_crime",
+      "relation": "commits",
+      "doc": "seeded"
+    },
+    {
+      "source": "cyber_crime",
+      "target": "data_breach",
+      "relation": "facilitates",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim",
+      "target": "data_breach",
+      "relation": "may not know source of",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scam",
+      "target": "scam_target",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scam",
+      "target": "secretive_instruction",
+      "relation": "employs",
+      "doc": "seeded"
+    },
+    {
+      "source": "processing_fees",
+      "target": "scam_target",
+      "relation": "is paid by",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "investment_fraud",
+      "relation": "is a form of",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "charles_ponzi",
+      "relation": "is named after",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "new_investors",
+      "relation": "lures",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "earlier_investors",
+      "relation": "pays apparent profits to",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_investors",
+      "target": "earlier_investors",
+      "relation": "funds payments to",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "fabricated_profits",
+      "relation": "generates",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "legitimate_business",
+      "relation": "falsely suggests profits from",
+      "doc": "seeded"
+    },
+    {
+      "source": "ponzi_scheme",
+      "target": "sustainable_illusion",
+      "relation": "maintains",
+      "doc": "seeded"
+    },
+    {
+      "source": "sustainable_illusion",
+      "target": "capital_inflow",
+      "relation": "depends on",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_investors",
+      "target": "capital_inflow",
+      "relation": "provides",
+      "doc": "seeded"
+    },
+    {
+      "source": "irs_impersonation_scam",
+      "target": "internal_revenue_service",
+      "relation": "masquerades as",
+      "doc": "seeded"
+    },
+    {
+      "source": "irs_impersonation_scam",
+      "target": "american_taxpayers",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "irs_impersonation_scam",
+      "target": "threatening_calls",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "threatening_calls",
+      "target": "gift_card_payment",
+      "relation": "requests",
+      "doc": "seeded"
+    },
+    {
+      "source": "treasury_inspector_general",
+      "target": "irs_impersonation_scam",
+      "relation": "investigates",
+      "doc": "seeded"
+    },
+    {
+      "source": "awareness_programs",
+      "target": "irs_impersonation_scam",
+      "relation": "mitigates risk of",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_demographics",
+      "target": "american_taxpayers",
+      "relation": "describes subset of",
+      "doc": "seeded"
+    },
+    {
+      "source": "indian_arrests",
+      "target": "irs_impersonation_scam",
+      "relation": "combats",
+      "doc": "seeded"
+    },
+    {
+      "source": "gift_card_payment",
+      "target": "american_taxpayers",
+      "relation": "extracts funds from",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mule",
+      "target": "smurfer",
+      "relation": "is also known as",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mule",
+      "target": "illegal_funds",
+      "relation": "transfers",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mule",
+      "target": "electronic_transfer",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mule",
+      "target": "courier_service",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mule",
+      "target": "small_compensation",
+      "relation": "receives",
+      "doc": "seeded"
+    },
+    {
+      "source": "online_recruitment",
+      "target": "money_mule",
+      "relation": "recruits",
+      "doc": "seeded"
+    },
+    {
+      "source": "online_recruitment",
+      "target": "legitimate_employment_guise",
+      "relation": "uses",
+      "doc": "seeded"
+    },
+    {
+      "source": "legitimate_employment_guise",
+      "target": "money_mule",
+      "relation": "deceives",
+      "doc": "seeded"
+    },
+    {
+      "source": "illegal_funds",
+      "target": "illegal_merchandise",
+      "relation": "shares transfer techniques with",
+      "doc": "seeded"
+    },
+    {
+      "source": "romance_scams",
+      "target": "fake_identity",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "fake_identity",
+      "target": "victim_trust",
+      "relation": "gains",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_trust",
+      "target": "financial_exploitation",
+      "relation": "enables",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_exploitation",
+      "target": "gift_cards",
+      "relation": "requests",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_exploitation",
+      "target": "wire_transfers",
+      "relation": "requests",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_exploitation",
+      "target": "cryptocurrency",
+      "relation": "requests",
+      "doc": "seeded"
+    },
+    {
+      "source": "romance_scams",
+      "target": "emergency_pretext",
+      "relation": "exhibits",
+      "doc": "seeded"
+    },
+    {
+      "source": "romance_scams",
+      "target": "military_overseas_claim",
+      "relation": "exhibits",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammers",
+      "target": "scam",
+      "relation": "executes",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammers",
+      "target": "victims",
+      "relation": "defrauds",
+      "doc": "seeded"
+    },
+    {
+      "source": "scammers",
+      "target": "shills",
+      "relation": "employs",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam",
+      "target": "trust_gaining",
+      "relation": "requires",
+      "doc": "seeded"
+    },
+    {
+      "source": "trust_gaining",
+      "target": "victims",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam",
+      "target": "victim_exploitation",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_exploitation",
+      "target": "victims",
+      "relation": "exploits",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam",
+      "target": "short_con",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "scam",
+      "target": "long_con",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "long_con",
+      "target": "shills",
+      "relation": "may involve",
+      "doc": "seeded"
+    },
+    {
+      "source": "short_con",
+      "target": "victims",
+      "relation": "robs",
+      "doc": "seeded"
+    },
+    {
+      "source": "long_con",
+      "target": "victims",
+      "relation": "robs",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "complaint_countries",
+      "relation": "contains section",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "state_complaints",
+      "relation": "contains section",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "state_losses",
+      "relation": "contains section",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "crime_types",
+      "relation": "contains section",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "trend_analysis",
+      "relation": "contains section",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "state_statistics",
+      "relation": "contains section",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "definitions_appendix",
+      "relation": "contains appendix",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "ic3_data_info",
+      "relation": "contains appendix",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "public_announcements",
+      "relation": "contains appendix",
+      "doc": "seeded"
+    },
+    {
+      "source": "state_complaints",
+      "target": "state_losses",
+      "relation": "correlates with",
+      "doc": "seeded"
+    },
+    {
+      "source": "trend_analysis",
+      "target": "state_complaints",
+      "relation": "analyzes historical data of",
+      "doc": "seeded"
+    },
+    {
+      "source": "trend_analysis",
+      "target": "state_losses",
+      "relation": "analyzes historical data of",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data_info",
+      "target": "ic3_report",
+      "relation": "provides context for",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "cyber_threat_landscape",
+      "relation": "combats",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "ic3",
+      "relation": "operates",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "cybercriminals",
+      "relation": "tracks",
+      "doc": "seeded"
+    },
+    {
+      "source": "cybercriminals",
+      "target": "cyber_threat_landscape",
+      "relation": "threatens",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "private_sector_partnerships",
+      "relation": "builds",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "investment_fraud",
+      "relation": "monitors",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "business_email_compromise",
+      "relation": "monitors",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_reporting_gap",
+      "target": "fbi",
+      "relation": "hinders",
+      "doc": "seeded"
+    },
+    {
+      "source": "investment_fraud",
+      "target": "cyber_threat_landscape",
+      "relation": "dominates",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "cyber_crime",
+      "relation": "receives complaints about",
+      "doc": "seeded"
+    },
+    {
+      "source": "cyber_crime",
+      "target": "online_fraud",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "cyber_crime",
+      "target": "computer_intrusion",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "cyber_crime",
+      "target": "economic_espionage",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "complaint_aggregation",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_aggregation",
+      "target": "fbi",
+      "relation": "enables investigation for",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "intelligence_dissemination",
+      "relation": "performs",
+      "doc": "seeded"
+    },
+    {
+      "source": "intelligence_dissemination",
+      "target": "law_enforcement_partners",
+      "relation": "shares reports with",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "law_enforcement_partners",
+      "relation": "collaborates with",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "public_awareness",
+      "relation": "promotes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_rat",
+      "target": "business_email_compromise",
+      "relation": "investigates",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_rat",
+      "target": "financial_fraud_kill_chain",
+      "relation": "deploys",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_fraud_kill_chain",
+      "target": "financial_institution",
+      "relation": "requests action from",
+      "doc": "seeded"
+    },
+    {
+      "source": "financial_institution",
+      "target": "funds_freezing",
+      "relation": "executes",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_york_case",
+      "target": "business_email_compromise",
+      "relation": "is an instance of",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_york_case",
+      "target": "funds_freezing",
+      "relation": "resulted in",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_rat",
+      "target": "second_hop_tracking",
+      "relation": "performs",
+      "doc": "seeded"
+    },
+    {
+      "source": "second_hop_tracking",
+      "target": "financial_institution",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "connecticut_case",
+      "target": "business_email_compromise",
+      "relation": "is an instance of",
+      "doc": "seeded"
+    },
+    {
+      "source": "connecticut_case",
+      "target": "email_spoofing",
+      "relation": "utilized",
+      "doc": "seeded"
+    },
+    {
+      "source": "victim_complaint",
+      "target": "ic3_rat",
+      "relation": "triggers response from",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_rat",
+      "target": "funds_freezing",
+      "relation": "facilitates",
+      "doc": "seeded"
+    },
+    {
+      "source": "khemani",
+      "target": "tech_support_scam",
+      "relation": "orchestrated",
+      "doc": "seeded"
+    },
+    {
+      "source": "sterk_family",
+      "target": "money_laundering",
+      "relation": "conducted",
+      "doc": "seeded"
+    },
+    {
+      "source": "sterk_family",
+      "target": "tech_support_scam",
+      "relation": "benefited from",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "indian_law_enforcement",
+      "relation": "collaborated with",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "joint_operations",
+      "relation": "enabled",
+      "doc": "seeded"
+    },
+    {
+      "source": "indian_law_enforcement",
+      "target": "call_center_raids",
+      "relation": "executed",
+      "doc": "seeded"
+    },
+    {
+      "source": "joint_operations",
+      "target": "cyber_financial_crimes",
+      "relation": "combated",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "tech_support_scam",
+      "relation": "reported on",
+      "doc": "seeded"
+    },
+    {
+      "source": "tech_support_scam",
+      "target": "senior_citizens",
+      "relation": "targeted",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "cyber_financial_crimes",
+      "relation": "investigated",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "complaint_statistics",
+      "relation": "collects",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3",
+      "target": "internet_crime",
+      "relation": "tracks",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_statistics",
+      "target": "financial_losses",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_statistics",
+      "target": "age_demographics",
+      "relation": "categorizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_statistics",
+      "target": "international_complaints",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "international_complaints",
+      "target": "united_states",
+      "relation": "compares_to",
+      "doc": "seeded"
+    },
+    {
+      "source": "international_complaints",
+      "target": "united_kingdom",
+      "relation": "compares_to",
+      "doc": "seeded"
+    },
+    {
+      "source": "age_demographics",
+      "target": "senior_victims",
+      "relation": "identifies",
+      "doc": "seeded"
+    },
+    {
+      "source": "senior_victims",
+      "target": "financial_losses",
+      "relation": "suffer_high",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "complaint_statistics",
+      "relation": "contains",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_statistics",
+      "target": "district_of_columbia",
+      "relation": "aggregates",
+      "doc": "seeded"
+    },
+    {
+      "source": "appendix_b",
+      "target": "ic3_data",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "ic3_data",
+      "relation": "contains",
+      "doc": "seeded"
+    },
+    {
+      "source": "state_statistics",
+      "target": "financial_losses",
+      "relation": "quantifies",
+      "doc": "seeded"
+    },
+    {
+      "source": "california",
+      "target": "financial_losses",
+      "relation": "incurs",
+      "doc": "seeded"
+    },
+    {
+      "source": "texas",
+      "target": "financial_losses",
+      "relation": "incurs",
+      "doc": "seeded"
+    },
+    {
+      "source": "florida",
+      "target": "financial_losses",
+      "relation": "incurs",
+      "doc": "seeded"
+    },
+    {
+      "source": "new_york",
+      "target": "financial_losses",
+      "relation": "incurs",
+      "doc": "seeded"
+    },
+    {
+      "source": "district_of_columbia",
+      "target": "financial_losses",
+      "relation": "incurs",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_submission",
+      "target": "ic3_data",
+      "relation": "generates",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_report",
+      "target": "appendix_b",
+      "relation": "references",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "ic3_data",
+      "relation": "compiles",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "state_statistics",
+      "relation": "provides",
+      "doc": "seeded"
+    },
+    {
+      "source": "state_statistics",
+      "target": "complaint_count",
+      "relation": "measures",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_count",
+      "target": "california",
+      "relation": "ranks first for",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_count",
+      "target": "texas",
+      "relation": "ranks second for",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_count",
+      "target": "florida",
+      "relation": "ranks third for",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_count",
+      "target": "new_york",
+      "relation": "ranks fourth for",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_count",
+      "target": "district_of_columbia",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "appendix_b",
+      "relation": "detailed in",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "state_statistics",
+      "relation": "publishes",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi_ic3",
+      "target": "complaint_statistics",
+      "relation": "publishes",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_statistics",
+      "target": "per_capita_rate",
+      "relation": "measures",
+      "doc": "seeded"
+    },
+    {
+      "source": "per_capita_rate",
+      "target": "census_data",
+      "relation": "relies_on",
+      "doc": "seeded"
+    },
+    {
+      "source": "state_ranking",
+      "target": "district_of_columbia",
+      "relation": "ranks_first",
+      "doc": "seeded"
+    },
+    {
+      "source": "state_ranking",
+      "target": "west_virginia",
+      "relation": "ranks_last",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_statistics",
+      "target": "appendix_b",
+      "relation": "references",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi_ic3",
+      "target": "state_ranking",
+      "relation": "compiles",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi_ic3",
+      "target": "ic3_data",
+      "relation": "collects",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "advanced_fee_scam",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "business_email_compromise",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "business_email_compromise",
+      "target": "social_engineering",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "business_email_compromise",
+      "target": "wire_transfer",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "botnet",
+      "target": "ddos_attack",
+      "relation": "executes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "romance_scam",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "romance_scam",
+      "target": "grandparent_scheme",
+      "relation": "encompasses",
+      "doc": "seeded"
+    },
+    {
+      "source": "ic3_data",
+      "target": "credit_card_fraud",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "credit_card_fraud",
+      "target": "wire_transfer",
+      "relation": "may involve",
+      "doc": "seeded"
+    },
+    {
+      "source": "internet_crime_report",
+      "target": "employment_fraud",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "internet_crime_report",
+      "target": "extortion",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "internet_crime_report",
+      "target": "government_impersonation",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "internet_crime_report",
+      "target": "identity_theft",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "internet_crime_report",
+      "target": "investment_scam",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "internet_crime_report",
+      "target": "malware",
+      "relation": "documents",
+      "doc": "seeded"
+    },
+    {
+      "source": "identity_theft",
+      "target": "personal_information",
+      "relation": "uses",
+      "doc": "seeded"
+    },
+    {
+      "source": "extortion",
+      "target": "personal_information",
+      "relation": "threatens_exposure_of",
+      "doc": "seeded"
+    },
+    {
+      "source": "investment_scam",
+      "target": "personal_information",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "malware",
+      "target": "personal_information",
+      "relation": "steals",
+      "doc": "seeded"
+    },
+    {
+      "source": "complaint_count",
+      "target": "individual_filers",
+      "relation": "does not represent",
+      "doc": "seeded"
+    },
+    {
+      "source": "complainant",
+      "target": "scam_subject",
+      "relation": "identifies as perpetrator",
+      "doc": "seeded"
+    },
+    {
+      "source": "subject_count",
+      "target": "scam_subject",
+      "relation": "aggregates number of",
+      "doc": "seeded"
+    },
+    {
+      "source": "subject_count",
+      "target": "destination_state",
+      "relation": "is reported per",
+      "doc": "seeded"
+    },
+    {
+      "source": "attributed_losses",
+      "target": "scam_subject",
+      "relation": "is swindled by",
+      "doc": "seeded"
+    },
+    {
+      "source": "attributed_losses",
+      "target": "destination_state",
+      "relation": "is attributed to",
+      "doc": "seeded"
+    },
+    {
+      "source": "complainant",
+      "target": "attributed_losses",
+      "relation": "reports amount of",
+      "doc": "seeded"
+    },
+    {
+      "source": "complainant",
+      "target": "complaint_count",
+      "relation": "contributes to",
+      "doc": "seeded"
+    },
+    {
+      "source": "fbi",
+      "target": "public_service_announcement",
+      "relation": "publishes",
+      "doc": "seeded"
+    },
+    {
+      "source": "public_service_announcement",
+      "target": "timeshare_scam",
+      "relation": "warns about",
+      "doc": "seeded"
+    },
+    {
+      "source": "public_service_announcement",
+      "target": "sextortion",
+      "relation": "warns about",
+      "doc": "seeded"
+    },
+    {
+      "source": "public_service_announcement",
+      "target": "nft_scam",
+      "relation": "warns about",
+      "doc": "seeded"
+    },
+    {
+      "source": "public_service_announcement",
+      "target": "tech_support_scam",
+      "relation": "warns about",
+      "doc": "seeded"
+    },
+    {
+      "source": "federal_trade_commission",
+      "target": "consumer_fraud",
+      "relation": "identifies",
+      "doc": "seeded"
+    },
+    {
+      "source": "consumer_fraud",
+      "target": "phishing_attack",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "consumer_fraud",
+      "target": "romance_scam",
+      "relation": "includes",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_attack",
+      "target": "social_engineering",
+      "relation": "is form of",
+      "doc": "seeded"
+    },
+    {
+      "source": "phishing_attack",
+      "target": "fake_website",
+      "relation": "directs to",
+      "doc": "seeded"
+    },
+    {
+      "source": "spear_phishing",
+      "target": "phishing_attack",
+      "relation": "is variant of",
+      "doc": "seeded"
+    },
+    {
+      "source": "vishing",
+      "target": "phishing_attack",
+      "relation": "is variant of",
+      "doc": "seeded"
+    },
+    {
+      "source": "vishing",
+      "target": "spoofed_caller_id",
+      "relation": "uses",
+      "doc": "seeded"
+    },
+    {
+      "source": "romance_scam",
+      "target": "social_media",
+      "relation": "grows with",
+      "doc": "seeded"
+    },
+    {
+      "source": "fake_job_ads",
+      "target": "money_mules",
+      "relation": "recruits",
+      "doc": "seeded"
+    },
+    {
+      "source": "money_mules",
+      "target": "lottery_scams",
+      "relation": "facilitates",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scams",
+      "target": "elderly_victims",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "lottery_scams",
+      "target": "reload_fraud",
+      "relation": "leads_to",
+      "doc": "seeded"
+    },
+    {
+      "source": "reload_fraud",
+      "target": "elderly_victims",
+      "relation": "re_targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "government_impersonation",
+      "target": "irs_agents",
+      "relation": "impersonates",
+      "doc": "seeded"
+    },
+    {
+      "source": "government_impersonation",
+      "target": "social_security_admin",
+      "relation": "impersonates",
+      "doc": "seeded"
+    },
+    {
+      "source": "government_impersonation",
+      "target": "threat_tactics",
+      "relation": "employs",
+      "doc": "seeded"
+    },
+    {
+      "source": "threat_tactics",
+      "target": "gift_cards",
+      "relation": "demands_payment_via",
+      "doc": "seeded"
+    },
+    {
+      "source": "threat_tactics",
+      "target": "cryptocurrency",
+      "relation": "demands_payment_via",
+      "doc": "seeded"
+    },
+    {
+      "source": "government_impersonation",
+      "target": "elderly_victims",
+      "relation": "exploits",
+      "doc": "seeded"
+    },
+    {
+      "source": "ransomware",
+      "target": "data_encryption",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ransomware",
+      "target": "data_exfiltration",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "ransomware",
+      "target": "cryptocurrency",
+      "relation": "demands payment via",
+      "doc": "seeded"
+    },
+    {
+      "source": "ransomware",
+      "target": "trojan_horse",
+      "relation": "often delivered as",
+      "doc": "seeded"
+    },
+    {
+      "source": "trojan_horse",
+      "target": "email_attachment",
+      "relation": "disguised within",
+      "doc": "seeded"
+    },
+    {
+      "source": "wannacry_worm",
+      "target": "ransomware",
+      "relation": "is a type of",
+      "doc": "seeded"
+    },
+    {
+      "source": "aids_trojan",
+      "target": "ransomware",
+      "relation": "is an early example of",
+      "doc": "seeded"
+    },
+    {
+      "source": "cryptographic_keys",
+      "target": "data_encryption",
+      "relation": "enables",
+      "doc": "seeded"
+    },
+    {
+      "source": "cryptocurrency",
+      "target": "prosecution_difficulty",
+      "relation": "contributes to",
+      "doc": "seeded"
+    },
+    {
+      "source": "ransomware",
+      "target": "prosecution_difficulty",
+      "relation": "causes",
+      "doc": "seeded"
+    },
+    {
+      "source": "uk_national_fraud_database",
+      "target": "sim_swap_fraud",
+      "relation": "tracks reports of",
+      "doc": "seeded"
+    },
+    {
+      "source": "cifas",
+      "target": "sim_swap_fraud",
+      "relation": "records unauthorized cases of",
+      "doc": "seeded"
+    },
+    {
+      "source": "safaricom",
+      "target": "kenya_mobile_market",
+      "relation": "operates within",
+      "doc": "seeded"
+    },
+    {
+      "source": "kenya_mobile_market",
+      "target": "sim_swap_fraud",
+      "relation": "experienced surge in",
+      "doc": "seeded"
+    },
+    {
+      "source": "south_korea_incidents",
+      "target": "sim_swap_fraud",
+      "relation": "documents attacks of",
+      "doc": "seeded"
+    },
+    {
+      "source": "sim_swap_fraud",
+      "target": "service_disruption",
+      "relation": "causes abrupt",
+      "doc": "seeded"
+    },
+    {
+      "source": "service_disruption",
+      "target": "account_compromise",
+      "relation": "leads to discovery of",
+      "doc": "seeded"
+    },
+    {
+      "source": "account_compromise",
+      "target": "cryptocurrency_accounts",
+      "relation": "includes theft from",
+      "doc": "seeded"
+    },
+    {
+      "source": "ss7_vulnerabilities",
+      "target": "sim_swap_fraud",
+      "relation": "enables alternative methods for",
+      "doc": "seeded"
+    },
+    {
+      "source": "safaricom",
+      "target": "sim_swap_fraud",
+      "relation": "reported increase in",
+      "doc": "seeded"
+    },
+    {
+      "source": "online_refund_scam",
+      "target": "technical_support_scam",
+      "relation": "is a form of",
+      "doc": "seeded"
+    },
+    {
+      "source": "online_refund_scam",
+      "target": "remote_access_software",
+      "relation": "utilizes",
+      "doc": "seeded"
+    },
+    {
+      "source": "business_payment_scam",
+      "target": "online_marketplace",
+      "relation": "occurs on",
+      "doc": "seeded"
+    },
+    {
+      "source": "business_payment_scam",
+      "target": "payment_processor",
+      "relation": "impersonates",
+      "doc": "seeded"
+    },
+    {
+      "source": "business_payment_scam",
+      "target": "bogus_payment_notice",
+      "relation": "uses",
+      "doc": "seeded"
+    },
+    {
+      "source": "bogus_payment_notice",
+      "target": "payment_processor",
+      "relation": "mimics",
+      "doc": "seeded"
+    },
+    {
+      "source": "kitboga",
+      "target": "scambaiting",
+      "relation": "practices",
+      "doc": "seeded"
+    },
+    {
+      "source": "kitboga",
+      "target": "online_refund_scam",
+      "relation": "targets",
+      "doc": "seeded"
+    },
+    {
+      "source": "jim_browning",
+      "target": "online_refund_scam",
+      "relation": "attempts to stop",
+      "doc": "seeded"
+    },
+    {
+      "source": "jim_browning",
+      "target": "scambaiting",
+      "relation": "engages in",
+      "doc": "seeded"
+    },
+    {
+      "source": "ftc",
+      "target": "grandparent_scam",
+      "relation": "warns about",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "fraudsters",
+      "target": "elderly_victims",
+      "relation": "calls",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "fraudsters",
+      "target": "impersonation",
+      "relation": "uses",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "impersonation",
+      "target": "grandparent_scam",
+      "relation": "is core to",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "fraudsters",
+      "target": "wire_transfers",
+      "relation": "requests",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "fraudsters",
+      "target": "gift_cards",
+      "relation": "requests",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "fraudsters",
+      "target": "secrecy_request",
+      "relation": "demands",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "secrecy_request",
+      "target": "elderly_victims",
+      "relation": "targets",
+      "doc": "FTC Grandparent Scam Alert"
+    },
+    {
+      "source": "wikipedia",
+      "target": "phishing",
+      "relation": "documents",
+      "doc": "Phishing"
+    }
+  ],
+  "docs": [
+    {
+      "name": "FTC Grandparent Scam Alert",
+      "nodes": 5,
+      "edges": 8,
+      "color": "#00d4ff"
+    },
+    {
+      "name": "Advance-fee_scam",
+      "nodes": 0,
+      "edges": 0,
+      "color": "#00e5a0"
+    },
+    {
+      "name": "Phishing",
+      "nodes": 1,
+      "edges": 1,
+      "color": "#8866ff"
+    },
+    {
+      "name": "IssuePaperFraud-eBook.pdf",
+      "nodes": 0,
+      "edges": 0,
+      "color": "#f0b840"
+    },
+    {
+      "name": "/IssuePaperFraud-eBook.pdf",
+      "nodes": 0,
+      "edges": 0,
+      "color": "#ff7744"
+    }
+  ]
+}
